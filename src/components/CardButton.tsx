@@ -49,9 +49,9 @@ interface Props {
   discription: string
 }
 
-function CardButton({ src, header, discription }: Props) {
+function CardButton({ src, header, discription, ...rest }: Props) {
   return (
-    <Container>
+    <Container {...rest}>
       <CardContainer>
         <Img src={src} />
         <Header size="huge" content={header} />

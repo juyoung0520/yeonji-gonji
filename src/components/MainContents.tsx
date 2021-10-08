@@ -1,9 +1,8 @@
 import styled from '@emotion/styled'
 import React from 'react'
 
-import SearchColorModal from '@/components/SearchColorModal'
-import SearchImageModal from '@/components/SearchImageModal'
-import SearchTextModal from '@/components/SearchTextModal'
+import SearchModal from '@/components/SearchModal'
+import UploadImage from '@/components/UploadImage'
 
 const Container = styled.div`
   height: 833.3px;
@@ -15,9 +14,9 @@ const Container = styled.div`
 function MainContents() {
   return (
     <Container>
-      <SearchColorModal />
-      <SearchImageModal />
-      <SearchTextModal />
+      <SearchModal content={UploadImage} />
+      <SearchModal content={UploadImage} />
+      <SearchModal content={UploadImage} />
     </Container>
   )
 }
