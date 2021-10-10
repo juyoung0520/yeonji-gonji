@@ -9,7 +9,7 @@ const Container = styled.div`
 `
 
 const Content = styled.div`
-  max-width: 1268.8px;
+  max-width: 1098.4px;
   margin: 0 auto;
   background-color: White;
   padding: 1.5rem;
