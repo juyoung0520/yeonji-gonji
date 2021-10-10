@@ -8,8 +8,12 @@ const Container = styled.div`
   align-items: center;
 `
 
+const Text = styled.span`
+  margin: 0 20px;
+`
+
 function UploadImage() {
-  const [file, setFile] = useState<File>()
+  const [fileName, setFileName] = useState<string>()
   const inputRef = useRef<HTMLInputElement>(null)
 
   const handleButtonOnClick = () => {
@@ -31,14 +35,16 @@ function UploadImage() {
 
     const file = files[0]
     console.log(file.name)
+    setFileName(file.name)
   }
 
   return (
     <Container>
+      <Text>{fileName ? fileName : '선택된 이미지가 없습니다.'}</Text>
       <Button
         size="medium"
         color="black"
-        content="파일 선택"
+        content="이미지 업로드"
         onClick={handleButtonOnClick}
       />
       <input

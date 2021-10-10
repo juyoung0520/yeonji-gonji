@@ -1,8 +1,10 @@
 import styled from '@emotion/styled'
 import React from 'react'
 
-import SearchModal from '@/components/SearchModal'
+import CardButton from '@/components/CardButton'
+import Modal from '@/components/Modal'
 import UploadImage from '@/components/UploadImage'
+import heart from '@/drawable/heart.png'
 
 const Container = styled.div`
   height: 833.3px;
@@ -14,9 +16,45 @@ const Container = styled.div`
 function MainContents() {
   return (
     <Container>
-      <SearchModal content={UploadImage} />
-      <SearchModal content={UploadImage} />
-      <SearchModal content={UploadImage} />
+      <Modal
+        trigger={
+          <CardButton
+            src={heart}
+            header="색상 선택"
+            discription="색상 선택해주세용."
+          />
+        }
+        header="헤더"
+        hasCloseIcon={true}
+        content={UploadImage}
+        action="no"
+      />
+      <Modal
+        trigger={
+          <CardButton
+            src={heart}
+            header="색상 선택"
+            discription="색상 선택해주세용."
+          />
+        }
+        header="헤더"
+        hasCloseIcon={true}
+        content={UploadImage}
+        action="no"
+      />
+      <Modal
+        trigger={
+          <CardButton
+            src={heart}
+            header="색상 선택"
+            discription="색상 선택해주세용."
+          />
+        }
+        header="헤더"
+        hasCloseIcon={true}
+        content={UploadImage}
+        action="no"
+      />
     </Container>
   )
 }

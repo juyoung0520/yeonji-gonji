@@ -1,5 +1,6 @@
+import styled from '@emotion/styled'
 import React, { FunctionComponent, useState } from 'react'
-import { Button, Modal } from 'semantic-ui-react'
+import { Button, Icon, Modal } from 'semantic-ui-react'
 
 import CardButton from '@/components/CardButton'
 import heart from '@/drawable/heart.png'
@@ -7,6 +8,11 @@ import heart from '@/drawable/heart.png'
 interface Props {
   content: FunctionComponent
 }
+
+const HeaderContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`
 
 function SearchModal({ content: Content }: Props) {
   const [open, setOpen] = useState(false)
@@ -17,6 +23,7 @@ function SearchModal({ content: Content }: Props) {
       onClose={() => setOpen(false)}
       open={open}
       dimmer="blurring"
+      size="small"
       trigger={
         <CardButton
           src={heart}
@@ -25,12 +32,17 @@ function SearchModal({ content: Content }: Props) {
         />
       }
     >
-      <Modal.Header>색상 검색</Modal.Header>
+      <Modal.Header>
+        <HeaderContainer>
+          <span>색상 검색</span>
+          <Icon name="close" />
+        </HeaderContainer>
+      </Modal.Header>
       <Modal.Content>
         <Content />
       </Modal.Content>
       <Modal.Actions>
-        <Button content="검색" color="black" onClick={() => setOpen(false)} />
+        <Button />
       </Modal.Actions>
     </Modal>
   )

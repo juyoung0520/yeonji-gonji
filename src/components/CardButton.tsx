@@ -25,7 +25,7 @@ const CardContainer = styled.div`
   justify-content: center;
   padding: 20px;
   overflow: hidden;
-  :hover {
+  &:hover {
     transform: translate(-1px, -1px);
     box-shadow: 0px 2px 9px rgb(0 0 0 / 30%);
   }
@@ -44,7 +44,7 @@ const Text = styled.span`
   font-size: 18px;
 `
 interface Props {
-  src: string
+  src?: string
   header: string
   discription: string
 }
@@ -53,7 +53,7 @@ function CardButton({ src, header, discription, ...rest }: Props) {
   return (
     <Container {...rest}>
       <CardContainer>
-        <Img src={src} />
+        {src && <Img src={src} />}
         <Header size="huge" content={header} />
         <Text>{discription}</Text>
       </CardContainer>
