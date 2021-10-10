@@ -8,11 +8,8 @@ import logo from '@/drawable/logo.png'
 import user from '@/drawable/user.png'
 
 const Header = styled.div`
-  position: fixed;
   display: flex;
   align-items: center;
-  margin-right: 159px;
-  margin-left: 159px;
   top: 0;
   left: 0;
   right: 0;
@@ -75,25 +72,17 @@ const Button = styled.button<{ imgUrl: string }>`
 `
 function TopBar() {
   return (
-    <div>
-      <Header>
-        <Link to="/">
-          <Logo imgUrl={logo} />
-        </Link>
-        <Search>
-          <SearchBox></SearchBox>
-          <Button imgUrl={glass}></Button>
-        </Search>
-        <ButtonContainer>
-          <Link to="/like">
-            <Button imgUrl={heart}></Button>
-          </Link>
-          <Link to="/login">
-            <Button imgUrl={user} />
-          </Link>
-        </ButtonContainer>
-      </Header>
-    </div>
+    <Header>
+      <Logo imgUrl={logo}></Logo>
+      <Search>
+        <SearchBox></SearchBox>
+        <Button imgUrl={glass}></Button>
+      </Search>
+      <ButtonContainer>
+        <Button imgUrl={heart}></Button>
+        <Button imgUrl={user}></Button>
+      </ButtonContainer>
+    </Header>
   )
 }
 export default TopBar
