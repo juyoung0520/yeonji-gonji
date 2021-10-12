@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import React, { FunctionComponent, ReactNode, useState } from 'react'
+import React, { Fragment, FunctionComponent, ReactNode, useState } from 'react'
 import { Button, Icon, Modal as SemanticUIModal } from 'semantic-ui-react'
 
 interface ComponentProps {
@@ -14,6 +14,12 @@ interface ComponentProps {
 const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
+`
+const ContentContainer = styled.div`
+  margin: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 const CloseIcon = styled(Icon)`
@@ -51,7 +57,9 @@ function Modal({
         </HeaderContainer>
       </SemanticUIModal.Header>
       <SemanticUIModal.Content>
-        <Content />
+        <ContentContainer>
+          <Content />
+        </ContentContainer>
       </SemanticUIModal.Content>
       {actionType && (
         <SemanticUIModal.Actions>

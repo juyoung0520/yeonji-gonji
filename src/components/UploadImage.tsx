@@ -2,13 +2,6 @@ import styled from '@emotion/styled'
 import React, { ChangeEvent, useRef, useState } from 'react'
 import { Button } from 'semantic-ui-react'
 
-const Container = styled.div`
-  margin: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`
-
 const Text = styled.span`
   margin: 0 20px;
 `
@@ -39,7 +32,7 @@ function UploadImage() {
   }
 
   return (
-    <Container>
+    <>
       <Text>{fileName ? fileName : '선택된 이미지가 없습니다.'}</Text>
       <Button
         size="medium"
@@ -54,7 +47,7 @@ function UploadImage() {
         hidden
         onChange={handlefileChange}
       />
-    </Container>
+    </>
   )
 }
 

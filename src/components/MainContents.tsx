@@ -3,6 +3,7 @@ import React from 'react'
 
 import CardButton from '@/components/CardButton'
 import Modal from '@/components/Modal'
+import SearchText from '@/components/SearchText'
 import UploadImage from '@/components/UploadImage'
 import heart from '@/drawable/heart.png'
 
@@ -13,6 +14,10 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-around;
 `
+const SEARCH_COLOR = '색상 검색'
+const SEARCH_IMAGE = '이미지 검색'
+const SEARCH_TEXT = '텍스트 검색'
+
 function MainContents() {
   return (
     <Container>
@@ -20,11 +25,11 @@ function MainContents() {
         trigger={
           <CardButton
             src={heart}
-            header="색상 검색"
+            header={SEARCH_COLOR}
             discription="색상을 선택하여 검색합니다."
           />
         }
-        header="헤더"
+        header={SEARCH_COLOR}
         hasCloseIcon={true}
         content={UploadImage}
       />
@@ -32,12 +37,12 @@ function MainContents() {
         trigger={
           <CardButton
             src={heart}
-            header="이미지 검색"
+            header={SEARCH_IMAGE}
             discription="이미지를 업로드하여 검색합니다."
           />
         }
         size="tiny"
-        header="헤더"
+        header={SEARCH_IMAGE}
         hasCloseIcon={true}
         content={UploadImage}
       />
@@ -45,14 +50,14 @@ function MainContents() {
         trigger={
           <CardButton
             src={heart}
-            header="텍스트 검색"
+            header={SEARCH_TEXT}
             discription="제품 정보를 입력하여 검색합니다."
           />
         }
-        header="헤더"
+        size="tiny"
+        header={SEARCH_TEXT}
         hasCloseIcon={true}
-        content={UploadImage}
-        actionType="two"
+        content={SearchText}
       />
     </Container>
   )
