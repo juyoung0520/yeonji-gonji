@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import glass from '@/drawable/glass.png'
 import heart from '@/drawable/heart.png'
@@ -15,9 +16,11 @@ const Header = styled.div`
   top: 0;
   left: 0;
   right: 0;
-  height: 63px;
+  width:100%
+  height: 96px;
   background-color: white;
   padding: 30px 20px 24px;
+  z-index:999;
   \ > first:child {
     width: 60px;
     height: 60px;
@@ -42,7 +45,6 @@ const Search = styled.div`
   border-top: 0px;
   border-left: 0px;
   border-bottom: solid 2px;
-
   > button {
     width: 25px;
     height: 25px;
@@ -75,14 +77,20 @@ function TopBar() {
   return (
     <div>
       <Header>
-        <Logo imgUrl={logo}></Logo>
+        <Link to="/">
+          <Logo imgUrl={logo} />
+        </Link>
         <Search>
           <SearchBox></SearchBox>
           <Button imgUrl={glass}></Button>
         </Search>
         <ButtonContainer>
-          <Button imgUrl={heart}></Button>
-          <Button imgUrl={user}></Button>
+          <Link to="/like">
+            <Button imgUrl={heart}></Button>
+          </Link>
+          <Link to="/login">
+            <Button imgUrl={user} />
+          </Link>
         </ButtonContainer>
       </Header>
     </div>

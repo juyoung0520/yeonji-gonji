@@ -1,15 +1,14 @@
 import React from 'react'
 
 import Layout from '@/components/Layout'
-import MainContents from '@/components/MainContents'
+import Like from '@/components/Like'
 import TopBar from '@/components/TopBar'
-function Main() {
+function LikePage() {
   return (
     <Layout>
       <TopBar />
-      <MainContents />
+      <Like />
     </Layout>
   )
 }
-
-export default Main
+export default LikePage

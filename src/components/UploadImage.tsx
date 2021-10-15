@@ -13,10 +13,6 @@ const Text = styled.span`
   margin: 0 20px;
 `
 
-const Text = styled.span`
-  margin: 0 20px;
-`
-
 function UploadImage() {
   const [fileName, setFileName] = useState<string>()
   const inputRef = useRef<HTMLInputElement>(null)
