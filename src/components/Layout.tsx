@@ -2,14 +2,13 @@ import styled from '@emotion/styled'
 import React, { ReactNode } from 'react'
 
 const Container = styled.div`
-  padding: 3rem 0;
-  background-color: White;
+  background-color: grey;
   min-height: 100vh;
   height: 100%;
 `
 
 const Content = styled.div`
-  max-width: 1098.4px;
+  max-width: 1268.8px;
   margin: 0 auto;
   background-color: White;
   padding: 1.5rem;

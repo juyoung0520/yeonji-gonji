@@ -2,17 +2,9 @@ import styled from '@emotion/styled'
 import React, { ChangeEvent, useRef, useState } from 'react'
 import { Button } from 'semantic-ui-react'
 
-const Container = styled.div`
-  margin: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`
-
 const Text = styled.span`
   margin: 0 20px;
 `
-
 function UploadImage() {
   const [fileName, setFileName] = useState<string>()
   const inputRef = useRef<HTMLInputElement>(null)
@@ -28,19 +20,17 @@ function UploadImage() {
   const handlefileChange = (event: ChangeEvent<HTMLInputElement>) => {
     const files = event.target.files
 
-    console.log('change')
-
     if (!files) {
       return
     }
 
     const file = files[0]
-    console.log(file.name)
     setFileName(file.name)
+    // formData에 담기
   }
 
   return (
-    <Container>
+    <>
       <Text>{fileName ? fileName : '선택된 이미지가 없습니다.'}</Text>
       <Button
         size="medium"
@@ -55,7 +45,7 @@ function UploadImage() {
         hidden
         onChange={handlefileChange}
       />
-    </Container>
+    </>
   )
 }
 
