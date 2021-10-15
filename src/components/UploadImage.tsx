@@ -20,15 +20,13 @@ function UploadImage() {
   const handlefileChange = (event: ChangeEvent<HTMLInputElement>) => {
     const files = event.target.files
 
-    console.log('change')
-
     if (!files) {
       return
     }
 
     const file = files[0]
-    console.log(file.name)
     setFileName(file.name)
+    // formData에 담기
   }
 
   return (

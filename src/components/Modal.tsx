@@ -6,7 +6,7 @@ interface ComponentProps {
   trigger: ReactNode
   header: string
   hasCloseIcon?: boolean
-  content: FunctionComponent
+  content: FunctionComponent<{ onClick?: () => void }>
   size?: 'small' | 'large' | 'mini' | 'tiny' | 'fullscreen'
   actionType?: 'one' | 'two'
 }
@@ -58,7 +58,7 @@ function Modal({
       </SemanticUIModal.Header>
       <SemanticUIModal.Content>
         <ContentContainer>
-          <Content />
+          <Content onClick={() => setIsOpen(false)} />
         </ContentContainer>
       </SemanticUIModal.Content>
       {actionType && (

@@ -7,6 +7,8 @@ import SearchText from '@/components/SearchText'
 import UploadImage from '@/components/UploadImage'
 import heart from '@/drawable/heart.png'
 
+import ColorPicker from './ColorPicker'
+
 const Container = styled.div`
   height: 833.3px;
   margin: auto;
@@ -29,9 +31,11 @@ function MainContents() {
             discription="색상을 선택하여 검색합니다."
           />
         }
+        size="small"
         header={SEARCH_COLOR}
         hasCloseIcon={true}
-        content={UploadImage}
+        content={ColorPicker}
+        actionType="one"
       />
       <Modal
         trigger={
