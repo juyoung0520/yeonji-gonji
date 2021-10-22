@@ -25,7 +25,7 @@ const LoginButton = styled.button`
   font-size: 18px;
   font-weight: bold;
 `
-const SignUp = styled.div`
+const SignUpButton = styled.div`
   display: block;
   text-align: center;
   margin-top: 20px;
@@ -53,7 +53,7 @@ const Input = styled.input`
     font-size: 16px;
   }
 `
-function Login() {
+function LoginBox() {
   return (
     <LoginContainer>
       <Comment>
@@ -65,10 +65,10 @@ function Login() {
       <Input placeholder="비밀번호 입력" />
       <LoginButton type="submit">로그인</LoginButton>
       <Link to="/signup">
-        <SignUp>회원가입</SignUp>
+        <SignUpButton>회원가입</SignUpButton>
       </Link>
     </LoginContainer>
   )
 }
 
-export default Login
+export default LoginBox
