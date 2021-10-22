@@ -16,7 +16,7 @@ const Header = styled.div`
   width:100%
   height: 96px;
   background-color: white;
-  padding: 30px 20px 24px;
+  padding: 30px 179px 24px 179px;
   z-index:999;
   \ > first:child {
     width: 60px;

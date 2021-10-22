@@ -1,15 +1,15 @@
 import React from 'react'
 
 import Layout from '@/components/Layout'
-import Signup from '@/components/Signup'
+import LoginBox from '@/components/LoginBox'
 import TopBar from '@/components/TopBar'
 
-function SignupPage() {
+function Login() {
   return (
     <Layout>
       <TopBar />
-      <Signup />
+      <LoginBox />
     </Layout>
   )
 }
-export default SignupPage
+export default Login
