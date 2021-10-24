@@ -2,14 +2,6 @@ import styled from '@emotion/styled'
 import React from 'react'
 import { Header } from 'semantic-ui-react'
 
-const Container = styled.div`
-  height: 833.3px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-`
-
 const CardContainer = styled.div`
   width: 320px;
   height: 329.4px;
@@ -51,13 +43,11 @@ interface Props {
 
 function CardButton({ src, header, discription, ...rest }: Props) {
   return (
-    <Container {...rest}>
-      <CardContainer>
-        {src && <Img src={src} />}
-        <Header size="huge" content={header} />
-        <Text>{discription}</Text>
-      </CardContainer>
-    </Container>
+    <CardContainer {...rest}>
+      {src && <Img src={src} />}
+      <Header size="huge" content={header} />
+      <Text>{discription}</Text>
+    </CardContainer>
   )
 }
 

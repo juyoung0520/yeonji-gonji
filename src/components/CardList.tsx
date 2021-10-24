@@ -2,16 +2,15 @@ import styled from '@emotion/styled'
 import React from 'react'
 
 import CardButton from '@/components/CardButton'
-import Modal from '@/components/Modal'
 import SearchText from '@/components/SearchText'
 import UploadImage from '@/components/UploadImage'
-import heart from '@/drawable/heart.png'
+import heart from '@/drawables/heart.png'
+import Modal from '@/shared/components/Modal'
 
 import ColorPicker from './ColorPicker'
 
 const Container = styled.div`
-  height: 833.3px;
-  margin: auto;
+  padding: 150px 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -20,7 +19,7 @@ const SEARCH_COLOR = '색상 검색'
 const SEARCH_IMAGE = '이미지 검색'
 const SEARCH_TEXT = '텍스트 검색'
 
-function MainContents() {
+function CardList() {
   return (
     <Container>
       <Modal
@@ -67,4 +66,4 @@ function MainContents() {
   )
 }
 
-export default MainContents
+export default CardList

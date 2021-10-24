@@ -2,10 +2,10 @@ import styled from '@emotion/styled'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import glass from '@/drawable/glass.png'
-import heart from '@/drawable/heart.png'
-import logo from '@/drawable/logo.png'
-import user from '@/drawable/user.png'
+import glass from '@/drawables/glass.png'
+import heart from '@/drawables/heart.png'
+import logo from '@/drawables/logo.png'
+import user from '@/drawables/user.png'
 
 const Header = styled.div`
   display: flex;
@@ -13,7 +13,7 @@ const Header = styled.div`
   top: 0;
   left: 0;
   right: 0;
-  width:100%
+  width: 100%;
   height: 96px;
   background-color: white;
   padding: 30px 179px 24px 179px;
@@ -24,6 +24,7 @@ const Header = styled.div`
   }
 `
 const Logo = styled.button<{ imgUrl: string }>`
+  cursor: pointer;
   width: 50px;
   height: 50px;
   border: none;
@@ -62,6 +63,7 @@ const ButtonContainer = styled.div`
   margin-left: 60px;
 `
 const Button = styled.button<{ imgUrl: string }>`
+  cursor: pointer;
   margin-left: 30px;
   width: 35px;
   height: 35px;
@@ -73,14 +75,23 @@ const Button = styled.button<{ imgUrl: string }>`
 function TopBar() {
   return (
     <Header>
-      <Logo imgUrl={logo}></Logo>
+      <Link to="/">
+        <Logo imgUrl={logo} />
+      </Link>
       <Search>
         <SearchBox></SearchBox>
         <Button imgUrl={glass}></Button>
       </Search>
       <ButtonContainer>
-        <Button imgUrl={heart}></Button>
-        <Button imgUrl={user}></Button>
+        <Link to="/like">
+          <Button imgUrl={heart} />
+        </Link>
+        <Link to="/login">
+          <Button imgUrl={user} />
+        </Link>
+        <Link to="/userinfo">
+          <Button imgUrl={user} />
+        </Link>
       </ButtonContainer>
     </Header>
   )

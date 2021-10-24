@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import React, { Fragment, FunctionComponent, ReactNode, useState } from 'react'
+import React, { FunctionComponent, ReactNode, useState } from 'react'
 import { Button, Icon, Modal as SemanticUIModal } from 'semantic-ui-react'
 
 interface ComponentProps {
