@@ -1,16 +1,14 @@
 import React from 'react'
 
-import CardList from '@/components/CardList'
 import Layout from '@/components/Layout'
 import TopBar from '@/components/TopBar'
-
-function Main() {
+import UserDetailInfo from '@/components/UserDetailInfo'
+function UserInfo() {
   return (
     <Layout>
       <TopBar />
-      <CardList />
+      <UserDetailInfo />
     </Layout>
   )
 }
-
-export default Main
+export default UserInfo

@@ -80,7 +80,7 @@ function ColorPicker() {
       <CirclePicker colors={colors} onChange={(color) => handleChange(color)} />
       {/* <CircleContainer>
         {colors.map((color, index) => (
-          <ColorCircle key={index} hex={color}>
+          <ColorCircle key={index} hex={color} >
             <ClickCircle visibility="hidden" />
           </ColorCircle>
         ))}
