@@ -1,11 +1,9 @@
 import styled from '@emotion/styled'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Image } from 'semantic-ui-react'
 
 import next from '@/drawables/next.png'
 import Grid from '@/shared/components/Grid'
-import { Product } from '@/shared/types'
 
 const Content = styled.div`
   padding: 0 1rem;
@@ -137,7 +135,7 @@ function UserDetailInfo() {
             </ArrowButton>
           </Link>
         </SubHeaderContainer>
-        <Grid item={<Image />} columns={4} data={productList} />
+        <Grid columns={4} data={productList} />
       </Content>
     </>
   )
