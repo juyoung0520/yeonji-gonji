@@ -75,9 +75,7 @@ const Button = styled.button<{ imgUrl: string }>`
 function TopBar() {
   return (
     <Header>
-      <Link to="/">
         <Logo imgUrl={logo} />
-      </Link>
       <Search>
         <SearchBox></SearchBox>
         <Button imgUrl={glass}></Button>

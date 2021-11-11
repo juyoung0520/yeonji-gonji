@@ -1,0 +1,5 @@
+export { default as Detail } from '@/pages/Detail'
+export { default as Like } from '@/pages/Like'
+export { default as Login } from '@/pages/Login'
+export { default as Main } from '@/pages/Main'
+export { default as Signup } from '@/pages/Signup'
