@@ -76,7 +76,7 @@ function TopBar() {
   return (
     <Header>
       <Link to="/">
-        <Logo imgUrl={logo} />
+        <Logo imgUrl={logo}></Logo>
       </Link>
       <Search>
         <SearchBox></SearchBox>
@@ -84,10 +84,10 @@ function TopBar() {
       </Search>
       <ButtonContainer>
         <Link to="/like">
-          <Button imgUrl={heart} />
+          <Button imgUrl={heart}></Button>
         </Link>
         <Link to="/login">
-          <Button imgUrl={user} />
+          <Button imgUrl={user}></Button>
         </Link>
         <Link to="/userinfo">
           <Button imgUrl={user} />
