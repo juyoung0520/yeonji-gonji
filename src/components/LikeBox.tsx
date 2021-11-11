@@ -1,6 +1,9 @@
 import styled from '@emotion/styled'
 import React, { useState } from 'react'
 import { Grid } from 'semantic-ui-react'
+
+import AddItem from './AddItem'
+import TabList from './TabList'
 const items = [
   {
     imgUrl:
@@ -38,72 +41,41 @@ const items = [
     price: '22,900',
   },
 ]
-interface AddLikeItemProps {
-  key: number
-  imgUrl: string
-  brand: string
-  name: string
-  price: string
-}
 // 패딩 150px이 적용이 안됨
+const LikeContainer = styled.div`
+  margin-top: 50px;
+`
+const HeadText = styled.h2`
+  margin: 0 0 30px 30px;
+`
 const LikeGrid = styled(Grid)`
+  padding: 0 20px 0 20px !important;
   > .row {
-    margin-top: 150px;
+    align-item: center;
   }
 `
-const ItemBox = styled.div`
-  padding: 0 8px 30px;
-`
-const Wrap_info = styled.div`
-  margin-top: 10px;
-  > * {
-    display: block;
-    line-height: 25px;
-  }
-`
-const Info_brand = styled.span`
-  font-size: 13px;
-  color: #808893;
-`
-const Info_name = styled.span`
-  font-size: 15px;
-  color: #202429;
-`
-const Info_price = styled.span`
-  font-size: 18px;
-  font-weight: bold;
-`
-const AddLikeItem = ({ imgUrl, brand, name, price }: AddLikeItemProps) => {
-  return (
-    <ItemBox>
-      <img src={imgUrl} />
-      <Wrap_info>
-        <Info_brand>{brand}</Info_brand>
-        <Info_name>{name}</Info_name>
-        <Info_price>{price}</Info_price>
-      </Wrap_info>
-    </ItemBox>
-  )
-}
 function LikeBox() {
   return (
-    //필터(탭 목록) 넣기 - 컴포넌트로 만들기
-    <LikeGrid>
-      <Grid.Row columns={4}>
-        {items.map((item, i) => (
-          // key를 Grid.Column, AddLikeItem 둘다 줘야함
-          <Grid.Column key={i}>
-            <AddLikeItem
-              key={i}
-              imgUrl={item.imgUrl}
-              brand={item.brand}
-              name={item.name}
-              price={item.price}
-            />
-          </Grid.Column>
-        ))}
-      </Grid.Row>
-    </LikeGrid>
+    <LikeContainer>
+      <HeadText>찜한 상품</HeadText>
+      <TabList />
+      <LikeGrid>
+        <Grid.Row columns={4}>
+          {items.map((item, i) => (
+            // key를 Grid.Column, AddItem 둘다 줘야함
+            <Grid.Column key={i}>
+              <AddItem
+                key={i}
+                imgUrl={item.imgUrl}
+                brand={item.brand}
+                name={item.name}
+                price={item.price}
+              />
+            </Grid.Column>
+          ))}
+        </Grid.Row>
+      </LikeGrid>
+    </LikeContainer>
   )
 }
 
