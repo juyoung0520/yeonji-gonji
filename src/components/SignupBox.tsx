@@ -78,10 +78,12 @@ const Container = styled.div<{ text_align: string }>`
     margin: 3px;
     text-align: ${(props) => props.text_align};
   }
-  >: first-child {
+
+  > :first-child {
     margin-left: 0px;
   }
-  >: last-child {
+
+  > :last-child {
     margin-right: 0px;
   }
 `
@@ -96,6 +98,7 @@ const signUpValidation = yup.object({
     .oneOf([yup.ref('password1'), null])
     .required('비밀번호가 일치하지 않습니다.'),
 })
+
 function SignupBox() {
   const {
     handleSubmit,
@@ -104,6 +107,7 @@ function SignupBox() {
   } = useForm({
     resolver: yupResolver(signUpValidation),
   })
+
   const onSubmit = (data: any) => {
     console.log(data)
   }

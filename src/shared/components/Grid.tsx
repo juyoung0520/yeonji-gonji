@@ -10,15 +10,16 @@ import { Product } from '@/shared/types'
 interface Props {
   data: Product[]
   columns: SemanticWIDTHS | 'equal'
+  previewMode?: boolean
 }
 
-function Grid({ columns, data }: Props) {
+function Grid({ columns, data, previewMode }: Props) {
   return (
     <SemanticUIGrid relaxed>
       <SemanticUIGrid.Row columns={columns}>
         {data.map((item, index) => (
           <SemanticUIGrid.Column key={index}>
-            <Image src={item.image} />
+            {previewMode && <Image src={item.image} />}
           </SemanticUIGrid.Column>
         ))}
       </SemanticUIGrid.Row>

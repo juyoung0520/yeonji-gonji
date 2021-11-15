@@ -12,7 +12,7 @@ export interface Product {
   id: number
   name: string
   brand: string
-  color: string
+  color?: string
   price: string
   image: string
   createDateTime?: string

@@ -1,9 +1,12 @@
 import styled from '@emotion/styled'
-import React, { useState } from 'react'
+import axios from 'axios'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import next from '@/drawables/next.png'
 import Grid from '@/shared/components/Grid'
+import { Product } from '@/shared/types'
+import { convertToProducts, ProductJson } from '@/shared/utils/jsonUtils'
 
 const Content = styled.div`
   padding: 0 1rem;
@@ -86,18 +89,24 @@ const infoList = [
   { field: '이메일', content: 'juyoung0520@naver.com' },
 ]
 
-const productList = new Array(6).fill({
-  id: '1',
-  name: 'tint',
-  brand: 'jy',
-  detail: 'red',
-  color: '#fff',
-  price: '12300',
-  image: 'https://react.semantic-ui.com/images/wireframe/image.png',
-})
-
-function UserDetailInfo() {
+function UserDetail() {
   const [isLogin, setIsLogin] = useState(true)
+  const [products, setProducts] = useState<Product[]>([])
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        await axios.get('dummies/products.json').then((response) => {
+          const productJsons = response.data.products as ProductJson[]
+          setProducts(convertToProducts(productJsons))
+        })
+      } catch (e) {
+        console.log(e)
+      }
+    }
+
+    fetchProducts()
+  }, [])
 
   const handleLoginOnClick = () => {
     setIsLogin((prev) => !prev)
@@ -135,10 +144,10 @@ function UserDetailInfo() {
             </ArrowButton>
           </Link>
         </SubHeaderContainer>
-        <Grid columns={4} data={productList} />
+        <Grid columns={4} data={products.slice(0, 4)} previewMode={true} />
       </Content>
     </>
   )
 }
 
-export default UserDetailInfo
+export default UserDetail
