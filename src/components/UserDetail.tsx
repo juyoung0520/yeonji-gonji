@@ -8,12 +8,15 @@ import Grid from '@/shared/components/Grid'
 import { Product } from '@/shared/types'
 import { convertToProducts, ProductJson } from '@/shared/utils/jsonUtils'
 
+const Container = styled.div`
+  padding: 50px 0;
+`
+
 const Content = styled.div`
   padding: 0 1rem;
 `
 
 const HeaderContainer = styled.div`
-  padding-top: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,7 +69,7 @@ const SubHeader = styled.h2`
   margin-bottom: 0px;
 `
 
-const InfoItem = styled.div`
+const ItemInfo = styled.div`
   padding: 20px 0;
   border-bottom: 1px solid #bdbdbd;
 
@@ -114,7 +117,7 @@ function UserDetail() {
   }
 
   return (
-    <>
+    <Container>
       <HeaderContainer>
         <Header>마이페이지</Header>
         <SignOutButton onClick={handleLoginOnClick}>로그아웃</SignOutButton>
@@ -130,10 +133,10 @@ function UserDetail() {
           </Link>
         </SubHeaderContainer>
         {infoList.map(({ field, content }, index) => (
-          <InfoItem key={index}>
+          <ItemInfo key={index}>
             <span>{field}</span>
             <span>{content}</span>
-          </InfoItem>
+          </ItemInfo>
         ))}
         <SubHeaderContainer>
           <SubHeader>찜 목록</SubHeader>
@@ -146,7 +149,7 @@ function UserDetail() {
         </SubHeaderContainer>
         <Grid columns={4} data={products.slice(0, 4)} previewMode={true} />
       </Content>
-    </>
+    </Container>
   )
 }
 

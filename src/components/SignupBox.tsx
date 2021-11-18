@@ -6,9 +6,7 @@ import { useForm } from 'react-hook-form'
 import * as yup from 'yup'
 
 const SignupForm = styled.form`
-  margin-top: 150px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 150px auto;
   width: 566px;
 `
 const Comment = styled.h1`
