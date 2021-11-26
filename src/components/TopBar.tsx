@@ -16,7 +16,6 @@ const Header = styled.div`
   width: 100%;
   height: 96px;
   background-color: white;
-  padding: 30px 179px 24px 179px;
   z-index: 999;
   \ > first:child {
     width: 60px;
@@ -42,7 +41,7 @@ const Search = styled.div`
   border-right: 0px;
   border-top: 0px;
   border-left: 0px;
-  border-bottom: solid 2px;
+  border-bottom: solid 1px;
   > button {
     width: 25px;
     height: 25px;
@@ -80,14 +79,14 @@ function TopBar() {
       </Link>
       <Search>
         <SearchBox></SearchBox>
-        <Button imgUrl={glass}></Button>
+        <Button imgUrl={glass} />
       </Search>
       <ButtonContainer>
         <Link to="/like">
-          <Button imgUrl={heart}></Button>
+          <Button imgUrl={heart} />
         </Link>
         <Link to="/login">
-          <Button imgUrl={user}></Button>
+          <Button imgUrl={user} />
         </Link>
         <Link to="/user">
           <Button imgUrl={user} />

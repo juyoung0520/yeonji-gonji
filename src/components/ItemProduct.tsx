@@ -37,6 +37,7 @@ const InfoPrice = styled.span`
   font-size: 18px;
   font-weight: bold;
 `
+
 function ItemProduct({ key, product }: Props) {
   return (
     <ItemBox>
