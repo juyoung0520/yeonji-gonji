@@ -1,16 +1,22 @@
 import styled from '@emotion/styled'
-import React, { useState } from 'react'
+import axios from 'axios'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import next from '@/drawables/next.png'
 import Grid from '@/shared/components/Grid'
+import { Product } from '@/shared/types'
+import { convertToProducts, ProductJson } from '@/shared/utils/jsonUtils'
+
+const Container = styled.div`
+  padding: 50px 0;
+`
 
 const Content = styled.div`
   padding: 0 1rem;
 `
 
 const HeaderContainer = styled.div`
-  padding-top: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -63,7 +69,7 @@ const SubHeader = styled.h2`
   margin-bottom: 0px;
 `
 
-const InfoItem = styled.div`
+const ItemInfo = styled.div`
   padding: 20px 0;
   border-bottom: 1px solid #bdbdbd;
 
@@ -86,18 +92,24 @@ const infoList = [
   { field: '이메일', content: 'juyoung0520@naver.com' },
 ]
 
-const productList = new Array(6).fill({
-  id: '1',
-  name: 'tint',
-  brand: 'jy',
-  detail: 'red',
-  color: '#fff',
-  price: '12300',
-  image: 'https://react.semantic-ui.com/images/wireframe/image.png',
-})
-
-function UserDetailInfo() {
+function UserDetail() {
   const [isLogin, setIsLogin] = useState(true)
+  const [products, setProducts] = useState<Product[]>([])
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        await axios.get('dummies/products.json').then((response) => {
+          const productJsons = response.data.products as ProductJson[]
+          setProducts(convertToProducts(productJsons))
+        })
+      } catch (e) {
+        console.log(e)
+      }
+    }
+
+    fetchProducts()
+  }, [])
 
   const handleLoginOnClick = () => {
     setIsLogin((prev) => !prev)
@@ -105,7 +117,7 @@ function UserDetailInfo() {
   }
 
   return (
-    <>
+    <Container>
       <HeaderContainer>
         <Header>마이페이지</Header>
         <SignOutButton onClick={handleLoginOnClick}>로그아웃</SignOutButton>
@@ -121,10 +133,10 @@ function UserDetailInfo() {
           </Link>
         </SubHeaderContainer>
         {infoList.map(({ field, content }, index) => (
-          <InfoItem key={index}>
+          <ItemInfo key={index}>
             <span>{field}</span>
             <span>{content}</span>
-          </InfoItem>
+          </ItemInfo>
         ))}
         <SubHeaderContainer>
           <SubHeader>찜 목록</SubHeader>
@@ -135,10 +147,10 @@ function UserDetailInfo() {
             </ArrowButton>
           </Link>
         </SubHeaderContainer>
-        <Grid columns={4} data={productList} />
+        <Grid columns={4} data={products.slice(0, 4)} previewMode={true} />
       </Content>
-    </>
+    </Container>
   )
 }
 
-export default UserDetailInfo
+export default UserDetail

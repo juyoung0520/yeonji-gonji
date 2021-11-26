@@ -1,3 +1,4 @@
+import styled from '@emotion/styled'
 import React from 'react'
 import {
   Grid as SemanticUIGrid,
@@ -5,24 +6,34 @@ import {
   SemanticWIDTHS,
 } from 'semantic-ui-react'
 
+import ItemProduct from '@/components/ItemProduct'
 import { Product } from '@/shared/types'
+
+const Container = styled(SemanticUIGrid)`
+  padding: 0 20px 0 20px !important;
+`
 
 interface Props {
   data: Product[]
   columns: SemanticWIDTHS | 'equal'
+  previewMode?: boolean
 }
 
-function Grid({ columns, data }: Props) {
+function Grid({ columns, data, previewMode }: Props) {
   return (
-    <SemanticUIGrid relaxed>
+    <Container relaxed>
       <SemanticUIGrid.Row columns={columns}>
         {data.map((item, index) => (
           <SemanticUIGrid.Column key={index}>
-            <Image src={item.image} />
+            {previewMode ? (
+              <Image src={item.image} />
+            ) : (
+              <ItemProduct product={item} />
+            )}
           </SemanticUIGrid.Column>
         ))}
       </SemanticUIGrid.Row>
-    </SemanticUIGrid>
+    </Container>
   )
 }
 

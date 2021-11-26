@@ -2,13 +2,13 @@ import React from 'react'
 
 import Layout from '@/components/Layout'
 import TopBar from '@/components/TopBar'
-import UserDetailInfo from '@/components/UserDetailInfo'
-function UserInfo() {
+import UserDetail from '@/components/UserDetail'
+function User() {
   return (
     <Layout>
       <TopBar />
-      <UserDetailInfo />
+      <UserDetail />
     </Layout>
   )
 }
-export default UserInfo
+export default User

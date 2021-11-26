@@ -3,9 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const LoginContainer = styled.div`
-  margin-top: 150px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 150px auto;
   width: 566px;
 `
 const Comment = styled.h1`

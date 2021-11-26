@@ -3,7 +3,8 @@ import 'semantic-ui-css/semantic.min.css'
 import React from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 
-import { Detail, Like, Login, Main, Signup } from '@/pages/PageIndex'
+import { Detail, Like, Login, Main, Signup, User } from '@/pages/PageIndex'
+
 function App() {
   return (
     <BrowserRouter>
@@ -11,7 +12,7 @@ function App() {
       <Route path="/login" component={Login} />
       <Route path="/signup" component={Signup} />
       <Route path="/like" component={Like} />
-      <Route path="/detail/:name" component={Detail} />
+      <Route path="/user" component={User} />
     </BrowserRouter>
   )
 }

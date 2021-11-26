@@ -17,7 +17,7 @@ const Header = styled.div`
   height: 96px;
   background-color: white;
   padding: 30px 179px 24px 179px;
-  z-index:999;
+  z-index: 999;
   \ > first:child {
     width: 60px;
     height: 60px;
@@ -89,7 +89,7 @@ function TopBar() {
         <Link to="/login">
           <Button imgUrl={user}></Button>
         </Link>
-        <Link to="/userinfo">
+        <Link to="/user">
           <Button imgUrl={user} />
         </Link>
       </ButtonContainer>
