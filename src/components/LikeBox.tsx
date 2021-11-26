@@ -16,6 +16,21 @@ const HeadText = styled.h1`
   font-size: 32px;
   font-weight: 700;
 `
+const MoreButton = styled.button`
+  cursor: pointer;
+  display: block;
+  width: 250px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px 0;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 14px;
+  text-align: center;
+`
+const moreButtonClick = () => {
+  console.log('more!')
+}
 function LikeBox() {
   const [likedProducts, setLikedProducts] = useState<Product[]>([])
 
