@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
   Grid as SemanticUIGrid,
   Image,
@@ -17,19 +17,25 @@ interface Props {
   data: Product[]
   columns: SemanticWIDTHS | 'equal'
   previewMode?: boolean
+  itemComponent?: React.FunctionComponent<{ product: Product }>
 }
 
-function Grid({ columns, data, previewMode }: Props) {
+function Grid({
+  columns,
+  data,
+  previewMode,
+  itemComponent: Item = ItemProduct,
+}: Props) {
+  useEffect(() => {
+    console.log(columns)
+  }, [])
+
   return (
     <Container relaxed>
       <SemanticUIGrid.Row columns={columns}>
         {data.map((item, index) => (
           <SemanticUIGrid.Column key={index}>
-            {previewMode ? (
-              <Image src={item.image} />
-            ) : (
-              <ItemProduct product={item} />
-            )}
+            {previewMode ? <Image src={item.image} /> : <Item product={item} />}
           </SemanticUIGrid.Column>
         ))}
       </SemanticUIGrid.Row>

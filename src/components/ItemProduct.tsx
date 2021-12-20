@@ -36,6 +36,7 @@ const InfoName = styled.span`
 const InfoPrice = styled.span`
   font-size: 18px;
   font-weight: bold;
+  color: #f26b56;
 `
 
 function ItemProduct({ key, product }: Props) {

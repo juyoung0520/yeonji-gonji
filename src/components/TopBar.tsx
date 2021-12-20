@@ -42,7 +42,7 @@ const Search = styled.div`
   border-top: 0px;
   border-left: 0px;
   border-bottom: solid 1px;
-  > button {
+  button {
     width: 25px;
     height: 25px;
   }
@@ -75,11 +75,13 @@ function TopBar() {
   return (
     <Header>
       <Link to="/">
-        <Logo imgUrl={logo}></Logo>
+        <Logo imgUrl={logo} />
       </Link>
       <Search>
-        <SearchBox></SearchBox>
-        <Button imgUrl={glass} />
+        <SearchBox />
+        <Link to="/searchResult">
+          <Button imgUrl={glass} />
+        </Link>
       </Search>
       <ButtonContainer>
         <Link to="/like">
