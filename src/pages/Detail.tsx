@@ -1,25 +1,21 @@
-import React, { FC } from 'react'
+import React from 'react'
 import { ReactComponentElement } from 'react-router/node_modules/@types/react'
 import { RouteComponentProps } from 'react-router-dom'
 
 import DetailBox from '@/components/DetailBox'
 import Layout from '@/components/Layout'
 import TopBar from '@/components/TopBar'
-export interface State {
-  key: number
-  brand: string
-  imgUrl: string
-  name: string
-  price: string
-}
+import { Product } from '@/shared/types'
 
 function Detail({ location }: RouteComponentProps) {
-  const state = location.state as State
+  const product = location.state as Product
+  console.log(product)
 
   return (
     <Layout>
       <TopBar />
-      <DetailBox {...state} />
+      {/* <DetailBox {...product} /> */}
+      <DetailBox product={product} />
     </Layout>
   )
 }

@@ -39,16 +39,13 @@ const InfoPrice = styled.span`
   color: #f26b56;
 `
 
-function ItemProduct({ key, product }: Props) {
+function ItemProduct({ product }: Props) {
   return (
     <ItemBox>
       <Link
         to={{
-          pathname: `/detail/${product.name}`,
-          state: {
-            key,
-            product,
-          },
+          pathname: '/detail',
+          state: product,
         }}
       >
         <WrapInfo>
