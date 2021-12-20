@@ -20,6 +20,7 @@ function App() {
       <Route path="/login" component={Login} />
       <Route path="/signup" component={Signup} />
       <Route path="/like" component={Like} />
+      <Route path="/detail" component={Detail} />
       <Route path="/user" component={User} />
       <Route path="/searchResult" component={SearchResult} />
     </BrowserRouter>

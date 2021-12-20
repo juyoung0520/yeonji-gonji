@@ -4,7 +4,7 @@ import { RouteComponentProps } from 'react-router'
 
 import filledHeart from '@/drawables/filledHeart.png'
 import heart from '@/drawables/heart.png'
-import { State } from '@/pages/Detail'
+import { Product } from '@/shared/types'
 
 const Container = styled.div`
   padding-top: 70px;
@@ -113,8 +113,12 @@ const TabContainer = styled.div`
   margin-top: 30px;
 `
 
-const DetailBox = (state: State) => {
-  const { name, imgUrl, brand, price } = state
+interface Props {
+  product: Product
+}
+
+const DetailBox = ({ product }: Props) => {
+  console.log(product)
 
   const [liked, setLiked] = useState(false)
   const [activeIndex, setActiveIndex] = useState(0)
@@ -137,13 +141,13 @@ const DetailBox = (state: State) => {
     <Container>
       <WrapInfo>
         <LeftArea>
-          <DetailImage src={imgUrl} />
+          <DetailImage src={product.image} />
         </LeftArea>
         <RightArea>
           <WrapProductInfo>
-            <Brand>{brand}</Brand>
-            <Name>{name}</Name>
-            <Price>{price}</Price>
+            <Brand>{product.brand}</Brand>
+            <Name>{product.name}</Name>
+            <Price>{product.price}</Price>
           </WrapProductInfo>
           <WrapButton>
             <MakeupButton>화장 해보기</MakeupButton>
