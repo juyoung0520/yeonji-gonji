@@ -43,7 +43,7 @@ function SearchResultBox() {
     }
 
     fetchProducts()
-  }, [products])
+  }, [])
 
   return (
     <Container>

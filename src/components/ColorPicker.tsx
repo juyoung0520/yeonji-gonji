@@ -8,42 +8,6 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
 `
-// const CircleContainer = styled.div`
-//   width: 252px;
-//   display: flex;
-//   flex-wrap: wrap;
-//   margin-right: -14px;
-//   margin-bottom: -14px;
-// `
-// const ColorCircle = styled.span<{ hex: string }>`
-//   background: ${(props) => props.hex};
-//   height: 28px;
-//   width: 28px;
-//   margin-right: 14px;
-//   margin-bottom: 14px;
-//   cursor: pointer;
-//   outline: none;
-//   border-radius: 50%;
-//   transform: scale(1);
-//   transition: box-shadow 100ms ease 0s;
-//   :hover {
-//     transform: scale(1.2);
-//   }
-// `
-// const ClickCircle = styled.span<{ visibility: string }>`
-//   position: absolute;
-//   background: #ffffff;
-//   height: 28px;
-//   width: 28px;
-//   margin-right: 14px;
-//   margin-bottom: 14px;
-//   cursor: pointer;
-//   outline: none;
-//   border-radius: 50%;
-//   z-index: 10px;
-//   transform: scale(0.8);
-//   visibility: ${(props) => props.visibility};
-// `
 
 const colors = [
   '#A24C55',
@@ -78,13 +42,6 @@ function ColorPicker() {
   return (
     <Container>
       <CirclePicker colors={colors} onChange={(color) => handleChange(color)} />
-      {/* <CircleContainer>
-        {colors.map((color, index) => (
-          <ColorCircle key={index} hex={color} >
-            <ClickCircle visibility="hidden" />
-          </ColorCircle>
-        ))}
-      </CircleContainer> */}
       <ChromePicker
         color={selectedColor}
         onChange={(color) => handleChange(color)}

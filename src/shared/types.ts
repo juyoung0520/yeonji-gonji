@@ -15,6 +15,8 @@ export interface Product {
   color?: string
   price: string
   image: string
+  detailImage: string
+  similarity?: number
   createDateTime?: string
   deleteDateTime?: string
 }

@@ -13,6 +13,7 @@ import Modal from '@/shared/components/Modal'
 const Container = styled.div`
   padding: 150px 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 `
@@ -21,9 +22,6 @@ const SEARCH_IMAGE = '이미지 검색'
 const SEARCH_TEXT = '텍스트 검색'
 
 function CardList() {
-  const greeting =
-    '<p><img src="http://mimg.lalavla.com/resources/images/prdimg/202002/06/10003882_20200206152721.jpg" alt="" /></p><p><br /></p><p><img src="http://mimg.lalavla.com/resources/images/prdimg/202002/06/10003882_20200206152743.jpg" alt="" /></p><p><img src="http://mimg.lalavla.com/resources/images/prdimg/202002/06/10003882_20200206152754.jpg" alt="" /> </p><p><img src="http://mimg.lalavla.com/resources/images/prdimg/202002/18/10003882_20200218165027.jpg" alt="" /></p>'
-
   return (
     <Container>
       <Modal
@@ -66,7 +64,6 @@ function CardList() {
         hasCloseIcon={true}
         content={SearchText}
       />
-      {/* <p dangerouslySetInnerHTML={{ __html: greeting }} /> */}
     </Container>
   )
 }
