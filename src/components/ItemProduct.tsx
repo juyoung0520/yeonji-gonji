@@ -3,6 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import { Product } from '@/shared/types'
+import { addComma } from '@/shared/utils/stringUtils'
 
 interface Props {
   key?: number
@@ -37,6 +38,10 @@ const InfoPrice = styled.span`
   font-size: 18px;
   font-weight: bold;
   color: #f26b56;
+
+  span {
+    font-size: 15px;
+  }
 `
 
 function ItemProduct({ product }: Props) {
@@ -52,7 +57,10 @@ function ItemProduct({ product }: Props) {
           <Img src={product.image} />
           <InfoBrand>{product.brand}</InfoBrand>
           <InfoName>{product.name}</InfoName>
-          <InfoPrice>{product.price}</InfoPrice>
+          <InfoPrice>
+            {addComma(product.price)}
+            <span>원</span>
+          </InfoPrice>
         </WrapInfo>
       </Link>
     </ItemBox>
