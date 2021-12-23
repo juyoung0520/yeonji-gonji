@@ -15,6 +15,7 @@ const Header = styled.div`
   right: 0;
   width: 100%;
   height: 96px;
+  border-bottom: 1px solid LightGray;
   background-color: white;
   z-index: 999;
   \ > first:child {
