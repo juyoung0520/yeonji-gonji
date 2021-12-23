@@ -1,6 +1,8 @@
 import styled from '@emotion/styled'
 import React, { FunctionComponent, ReactNode, useState } from 'react'
-import { Button, Icon, Modal as SemanticUIModal } from 'semantic-ui-react'
+import { Button, Modal as SemanticUIModal } from 'semantic-ui-react'
+
+import close from '@/drawables/close.png'
 
 interface ComponentProps {
   trigger: ReactNode
@@ -14,6 +16,10 @@ interface ComponentProps {
 const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  span {
+    font-size: 18px;
+  }
 `
 const ContentContainer = styled.div`
   margin: 1.5rem;
@@ -22,7 +28,13 @@ const ContentContainer = styled.div`
   align-items: center;
 `
 
-const CloseIcon = styled(Icon)`
+const CloseIcon = styled.button<{ imgUrl: string }>`
+  width: 15px;
+  height: 15px;
+  border: none;
+  background-color: transparent;
+  background-size: cover;
+  background-image: url(${(props) => props.imgUrl});
   &:hover {
     cursor: pointer;
     opacity: 0.6;
@@ -52,7 +64,11 @@ function Modal({
         <HeaderContainer>
           <span>{header}</span>
           {hasCloseIcon && (
-            <CloseIcon name="close" onClick={() => setIsOpen(false)} />
+            <CloseIcon
+              name="close"
+              imgUrl={close}
+              onClick={() => setIsOpen(false)}
+            />
           )}
         </HeaderContainer>
       </SemanticUIModal.Header>

@@ -6,7 +6,7 @@ const CardContainer = styled.div`
   width: 320px;
   height: 329.4px;
   min-height: 250px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px solid LightGray;
   box-sizing: border-box;
   box-shadow: 0px 2px 2px rgb(0 0 0 / 20%);
@@ -28,6 +28,7 @@ interface ImgProps {
 }
 
 const Img = styled.img<ImgProps>`
+  width: 100px;
   height: 100px;
   src: ${(props) => props.src};
 `
