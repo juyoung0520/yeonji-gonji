@@ -20,3 +20,8 @@ export interface Product {
   createDateTime?: string
   deleteDateTime?: string
 }
+
+export interface Keyword {
+  value: string
+  isColor: boolean
+}

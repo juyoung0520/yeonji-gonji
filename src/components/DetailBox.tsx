@@ -120,8 +120,6 @@ interface Props {
 }
 
 const DetailBox = ({ product }: Props) => {
-  console.log(product)
-
   const [liked, setLiked] = useState(false)
   const [activeIndex, setActiveIndex] = useState(0)
 

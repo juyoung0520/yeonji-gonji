@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react'
 import ItemProductRow from '@/components/ItemProductRow'
 import TabList from '@/components/TabList'
 import Grid from '@/shared/components/Grid'
+import { Keyword } from '@/shared/types'
 import { Product } from '@/shared/types'
 import { convertToProducts, ProductJson } from '@/shared/utils/jsonUtils'
 
@@ -12,22 +13,42 @@ const Container = styled.div`
   padding: 50px 0;
 `
 
+const HeadContainer = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+`
+
 const SearchText = styled.span`
   display: inline-block;
-  margin: 0 10px 30px 0;
   color: #f26b56;
   font-size: 30px;
   font-weight: 700;
+  margin-right: 10px;
 `
 
 const HeadText = styled.span`
   display: inline-block;
-  margin: 0 0 30px;
   font-size: 26px;
   font-weight: 700;
 `
 
-function SearchResultBox() {
+const ColorCircle = styled.div<{ color: string }>`
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  outline: none;
+  box-shadow: ${(props) => props.color} 0px 0px 0px 15px inset;
+  background: transparent;
+  margin-right: 10px;
+`
+
+interface Props {
+  keyword: Keyword
+}
+
+function SearchResultBox({ keyword }: Props) {
   const [products, setProducts] = useState<Product[]>([])
 
   useEffect(() => {
@@ -47,8 +68,14 @@ function SearchResultBox() {
 
   return (
     <Container>
-      <SearchText>&#39;틴트&#39;</SearchText>
-      <HeadText>검색 결과 (전체 {products.length} 개)</HeadText>
+      <HeadContainer>
+        {keyword.isColor ? (
+          <ColorCircle color={keyword.value} />
+        ) : (
+          <SearchText>&#39;{keyword.value}&#39;</SearchText>
+        )}
+        <HeadText>검색 결과 (전체 {products.length} 개)</HeadText>
+      </HeadContainer>
       <TabList />
       <Grid columns={1} data={products} itemComponent={ItemProductRow} />
     </Container>

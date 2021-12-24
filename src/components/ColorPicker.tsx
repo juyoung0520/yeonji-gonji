@@ -1,6 +1,8 @@
 import styled from '@emotion/styled'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { ChromePicker, CirclePicker, Color, ColorResult } from 'react-color'
+
+import { Keyword } from '@/shared/types'
 
 const Container = styled.div`
   width: 550px;
@@ -31,12 +33,22 @@ const colors = [
   // '#BC363D',
 ]
 
-function ColorPicker() {
-  const [selectedColor, setSelectedColor] = useState<Color>('')
+interface Props {
+  onSetkeyword?: (keyword: Keyword) => void
+}
 
+function ColorPicker({ onSetkeyword }: Props) {
+  const [selectedColor, setSelectedColor] = useState<Color>('')
   const handleChange = (color: ColorResult) => {
-    setSelectedColor(color.hex)
-    colors[colors.length - 1] = color.hex
+    const hex = color.hex
+
+    setSelectedColor(hex)
+
+    if (onSetkeyword) {
+      onSetkeyword({ value: hex, isColor: true })
+    }
+
+    colors[colors.length - 1] = hex
   }
 
   return (
