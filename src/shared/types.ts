@@ -15,6 +15,13 @@ export interface Product {
   color?: string
   price: string
   image: string
+  detailImage: string
+  similarity?: number
   createDateTime?: string
   deleteDateTime?: string
+}
+
+export interface Keyword {
+  value: string
+  isColor: boolean
 }

@@ -5,6 +5,7 @@ import { Link as RouterLink } from 'react-router-dom'
 import filledHeart from '@/drawables/filledHeart.png'
 import heart from '@/drawables/heart.png'
 import { Product } from '@/shared/types'
+import { calcSimilarity } from '@/shared/utils/colorUtils'
 import { addComma } from '@/shared/utils/stringUtils'
 
 interface Props {
@@ -15,6 +16,7 @@ const Container = styled.div`
   width: 100%;
   height: 215px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   border-bottom: 1px solid #ddd;
 `
@@ -52,7 +54,8 @@ const WrapInfo = styled.div`
 `
 
 const Price = styled.span`
-  font-size: 17px;
+  flex: 0.5;
+  font-size: 18px;
   font-weight: bold;
   color: black;
 
@@ -102,9 +105,12 @@ function ItemProductRow({ product }: Props) {
           <span>{product.name}</span>
         </WrapInfo>
       </Link>
-      <Percentage>
-        90<span>%</span>
-      </Percentage>
+      {!product.similarity && (
+        <Percentage>
+          {calcSimilarity('8C0F1E', 'CB2A2F')}
+          <span>%</span>
+        </Percentage>
+      )}
       <Price>
         {addComma(product.price)}
         <span>원</span>

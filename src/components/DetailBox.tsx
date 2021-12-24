@@ -1,13 +1,13 @@
 import styled from '@emotion/styled'
-import React, { ReactNode, useState } from 'react'
-import { RouteComponentProps } from 'react-router'
+import React, { useState } from 'react'
 
 import filledHeart from '@/drawables/filledHeart.png'
 import heart from '@/drawables/heart.png'
 import { Product } from '@/shared/types'
+import { addComma } from '@/shared/utils/stringUtils'
 
 const Container = styled.div`
-  padding-top: 70px;
+  padding: 70px 0;
 `
 const WrapInfo = styled.div`
   display: flex;
@@ -111,6 +111,8 @@ const Li = styled.li`
 
 const TabContainer = styled.div`
   margin-top: 30px;
+  display: flex;
+  justify-content: center;
 `
 
 interface Props {
@@ -118,8 +120,6 @@ interface Props {
 }
 
 const DetailBox = ({ product }: Props) => {
-  console.log(product)
-
   const [liked, setLiked] = useState(false)
   const [activeIndex, setActiveIndex] = useState(0)
 
@@ -129,7 +129,7 @@ const DetailBox = ({ product }: Props) => {
   const tabContArr = [
     {
       tabTitle: '상세페이지',
-      tabCont: <div>상세페이지입니다</div>,
+      tabCont: <div>상세페이지 입니다.</div>,
     },
     {
       tabTitle: '후기',
@@ -147,7 +147,10 @@ const DetailBox = ({ product }: Props) => {
           <WrapProductInfo>
             <Brand>{product.brand}</Brand>
             <Name>{product.name}</Name>
-            <Price>{product.price}</Price>
+            <Price>
+              {addComma(product.price)}
+              <span>원</span>
+            </Price>
           </WrapProductInfo>
           <WrapButton>
             <MakeupButton>화장 해보기</MakeupButton>
@@ -168,7 +171,13 @@ const DetailBox = ({ product }: Props) => {
           )
         })}
       </Tab>
-      <TabContainer>{tabContArr[activeIndex].tabCont}</TabContainer>
+      <TabContainer>
+        {activeIndex === 0 ? (
+          <p dangerouslySetInnerHTML={{ __html: product.detailImage }} />
+        ) : (
+          tabContArr[activeIndex].tabCont
+        )}
+      </TabContainer>
     </Container>
   )
 }

@@ -1,6 +1,8 @@
 import styled from '@emotion/styled'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { ChromePicker, CirclePicker, Color, ColorResult } from 'react-color'
+
+import { Keyword } from '@/shared/types'
 
 const Container = styled.div`
   width: 550px;
@@ -8,42 +10,6 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
 `
-// const CircleContainer = styled.div`
-//   width: 252px;
-//   display: flex;
-//   flex-wrap: wrap;
-//   margin-right: -14px;
-//   margin-bottom: -14px;
-// `
-// const ColorCircle = styled.span<{ hex: string }>`
-//   background: ${(props) => props.hex};
-//   height: 28px;
-//   width: 28px;
-//   margin-right: 14px;
-//   margin-bottom: 14px;
-//   cursor: pointer;
-//   outline: none;
-//   border-radius: 50%;
-//   transform: scale(1);
-//   transition: box-shadow 100ms ease 0s;
-//   :hover {
-//     transform: scale(1.2);
-//   }
-// `
-// const ClickCircle = styled.span<{ visibility: string }>`
-//   position: absolute;
-//   background: #ffffff;
-//   height: 28px;
-//   width: 28px;
-//   margin-right: 14px;
-//   margin-bottom: 14px;
-//   cursor: pointer;
-//   outline: none;
-//   border-radius: 50%;
-//   z-index: 10px;
-//   transform: scale(0.8);
-//   visibility: ${(props) => props.visibility};
-// `
 
 const colors = [
   '#A24C55',
@@ -67,24 +33,27 @@ const colors = [
   // '#BC363D',
 ]
 
-function ColorPicker() {
-  const [selectedColor, setSelectedColor] = useState<Color>('')
+interface Props {
+  onSetkeyword?: (keyword: Keyword) => void
+}
 
+function ColorPicker({ onSetkeyword }: Props) {
+  const [selectedColor, setSelectedColor] = useState<Color>('')
   const handleChange = (color: ColorResult) => {
-    setSelectedColor(color.hex)
-    colors[colors.length - 1] = color.hex
+    const hex = color.hex
+
+    setSelectedColor(hex)
+
+    if (onSetkeyword) {
+      onSetkeyword({ value: hex, isColor: true })
+    }
+
+    colors[colors.length - 1] = hex
   }
 
   return (
     <Container>
       <CirclePicker colors={colors} onChange={(color) => handleChange(color)} />
-      {/* <CircleContainer>
-        {colors.map((color, index) => (
-          <ColorCircle key={index} hex={color} >
-            <ClickCircle visibility="hidden" />
-          </ColorCircle>
-        ))}
-      </CircleContainer> */}
       <ChromePicker
         color={selectedColor}
         onChange={(color) => handleChange(color)}

@@ -1,11 +1,12 @@
 import styled from '@emotion/styled'
-import React from 'react'
+import React, { useCallback, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import glass from '@/drawables/glass.png'
 import heart from '@/drawables/heart.png'
 import logo from '@/drawables/logo.png'
 import user from '@/drawables/user.png'
+import { Keyword } from '@/shared/types'
 
 const Header = styled.div`
   display: flex;
@@ -43,6 +44,7 @@ const Search = styled.div`
   border-top: 0px;
   border-left: 0px;
   border-bottom: solid 1px;
+
   button {
     width: 25px;
     height: 25px;
@@ -73,14 +75,31 @@ const Button = styled.button<{ imgUrl: string }>`
   background-image: url(${(props) => props.imgUrl});
 `
 function TopBar() {
+  const [keyword, setKeyword] = useState<string>('')
+
+  const handleKeyWordChange = useCallback(
+    (target: EventTarget & HTMLInputElement) => {
+      setKeyword(target.value)
+    },
+    [],
+  )
+
   return (
     <Header>
       <Link to="/">
         <Logo imgUrl={logo} />
       </Link>
       <Search>
-        <SearchBox />
-        <Link to="/searchResult">
+        <SearchBox
+          value={keyword}
+          onChange={(event) => handleKeyWordChange(event.target)}
+        />
+        <Link
+          to={{
+            pathname: '/searchResult',
+            state: { value: keyword, isColor: false },
+          }}
+        >
           <Button imgUrl={glass} />
         </Link>
       </Search>
