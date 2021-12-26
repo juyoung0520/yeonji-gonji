@@ -1,7 +1,7 @@
 import { PROPERTY_TYPES } from '@babel/types'
 import styled from '@emotion/styled'
 import { yupResolver } from '@hookform/resolvers/yup'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
 import * as yup from 'yup'
 
@@ -87,8 +87,7 @@ const Container = styled.div<{ text_align: string }>`
 `
 //유효성 검사
 const signUpValidation = yup.object({
-  userName: yup.string().required('닉네임을 입력해주세요.'),
-  userId: yup.string().required('아이디를 입력해주세요.'),
+  name: yup.string().required('닉네임을 입력해주세요.'),
   email: yup.string().email().required('이메일을 입력해주세요.'),
   password1: yup.string().required('비밀번호를 입력해주세요.'),
   password2: yup
@@ -97,6 +96,7 @@ const signUpValidation = yup.object({
     .required('비밀번호가 일치하지 않습니다.'),
 })
 
+import { User } from '@/shared/types'
 function SignupBox() {
   const {
     handleSubmit,
@@ -105,9 +105,18 @@ function SignupBox() {
   } = useForm({
     resolver: yupResolver(signUpValidation),
   })
-
-  const onSubmit = (data: any) => {
-    console.log(data)
+  const onSubmit = (data: User) => {
+    const user = [data.email, data.password2, data.name]
+    const loadedUserArray = localStorage.getItem('USER')
+    if (loadedUserArray !== null) {
+      const parsedUserArray = JSON.parse(loadedUserArray)
+      const userArray = [...parsedUserArray, user]
+      localStorage.setItem('USER', JSON.stringify(userArray))
+    } else {
+      localStorage.setItem('USER', JSON.stringify([user]))
+    }
+    alert('회원가입 성공')
+    history.go(-1)
   }
 
   return (
@@ -115,17 +124,10 @@ function SignupBox() {
       <Comment>가입을 시작합니다!</Comment>
       <div>
         <Label>
-          아이디<Sup> *</Sup>
-        </Label>
-        <Input type="text" placeholder="아이디" {...register('userId')} />
-        <Span>{errors.userId && '아이디를 입력해주세요.'}</Span>
-      </div>
-      <div>
-        <Label>
           닉네임<Sup> *</Sup>
         </Label>
-        <Input type="text" placeholder="닉네임" {...register('userName')} />
-        <Span>{errors.userName && '닉네임을 입력해주세요.'}</Span>
+        <Input type="text" placeholder="닉네임" {...register('name')} />
+        <Span>{errors.name && '닉네임을 입력해주세요.'}</Span>
       </div>
       <div>
         <Label>

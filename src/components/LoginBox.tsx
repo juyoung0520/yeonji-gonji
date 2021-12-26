@@ -51,7 +51,35 @@ const Input = styled.input`
     font-size: 16px;
   }
 `
+import { History } from 'history'
+import { useForm } from 'react-hook-form'
+
+import { User } from '@/shared/types'
 function LoginBox() {
+  const { handleSubmit, register } = useForm()
+
+  const onSubmit = (data: User) => {
+    const loadedUserArray = localStorage.getItem('USER')
+    if (loadedUserArray !== null) {
+      //localStorage.getItem이 null인지 확인하고 parse 해야 함
+      const parsedUserArray = JSON.parse(loadedUserArray)
+      const currentUser: User = parsedUserArray.find(
+        (user: Array<string>) =>
+          user[0] === data.email && user[1] === data.password2,
+      )
+      if (currentUser) {
+        localStorage.setItem('isLogin', 'true')
+        localStorage.setItem('currentUSER', JSON.stringify(currentUser))
+        alert('로그인 성공')
+        history.go(-1)
+      } else {
+        alert('로그인 실패')
+      }
+    } else {
+      alert('로그인 실패')
+    }
+  }
+
   return (
     <LoginContainer>
       <Comment>
@@ -59,12 +87,18 @@ function LoginBox() {
         <br />
         연지곤지 입니다.
       </Comment>
-      <Input placeholder="아이디 입력" />
-      <Input placeholder="비밀번호 입력" />
-      <LoginButton type="submit">로그인</LoginButton>
-      <Link to="/signup">
-        <SignUpButton>회원가입</SignUpButton>
-      </Link>
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <Input type="text" {...register('email')} placeholder="아이디 입력" />
+        <Input
+          type="password"
+          {...register('password2')}
+          placeholder="비밀번호 입력"
+        />
+        <LoginButton type="submit">로그인</LoginButton>
+        <Link to="/signup">
+          <SignUpButton>회원가입</SignUpButton>
+        </Link>
+      </form>
     </LoginContainer>
   )
 }
