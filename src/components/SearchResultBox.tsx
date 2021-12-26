@@ -7,7 +7,11 @@ import TabList from '@/components/TabList'
 import Grid from '@/shared/components/Grid'
 import { Keyword } from '@/shared/types'
 import { Product } from '@/shared/types'
-import { convertToProducts, ProductJson } from '@/shared/utils/jsonUtils'
+import {
+  convertToProducts,
+  convertToProductsByColor,
+  ProductJson,
+} from '@/shared/utils/jsonUtils'
 
 const Container = styled.div`
   padding: 50px 0;
@@ -15,6 +19,7 @@ const Container = styled.div`
 
 const HeadContainer = styled.div`
   display: flex;
+  position: sticky;
   align-items: center;
   margin-bottom: 30px;
 `
@@ -56,7 +61,23 @@ function SearchResultBox({ keyword }: Props) {
       try {
         await axios.get('dummies/products.json').then((response) => {
           const productJsons = response.data.products as ProductJson[]
-          setProducts(convertToProducts(productJsons))
+
+          if (keyword.isColor) {
+            const newProducts = convertToProductsByColor(
+              productJsons,
+              keyword.value,
+            ).sort((a, b) => {
+              if (!a.similarity || !b.similarity) {
+                return 1
+              }
+
+              return b.similarity - a.similarity
+            })
+
+            setProducts(newProducts)
+          } else {
+            setProducts(convertToProducts(productJsons))
+          }
         })
       } catch (e) {
         console.log(e)
@@ -64,13 +85,17 @@ function SearchResultBox({ keyword }: Props) {
     }
 
     fetchProducts()
-  }, [])
+  }, [keyword])
 
   return (
     <Container>
       <HeadContainer>
         {keyword.isColor ? (
-          <ColorCircle color={keyword.value} />
+          <>
+            <SearchText>&#39;</SearchText>
+            <ColorCircle color={keyword.value} title={keyword.value} />
+            <SearchText>&#39;</SearchText>
+          </>
         ) : (
           <SearchText>&#39;{keyword.value}&#39;</SearchText>
         )}

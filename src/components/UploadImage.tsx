@@ -100,7 +100,7 @@ function UploadImage() {
       <SelectedImage>
         {uploadImage ? <img src={uploadImage} /> : '선택된 이미지가 없습니다.'}
       </SelectedImage>
-      {resultImage ? (
+      {uploadImage ? (
         <ResultContainer>
           <span>인공지능이 찾은 결과</span>
           <img src={lipstick} />

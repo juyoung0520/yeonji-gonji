@@ -1,9 +1,9 @@
 export function splitHexToArray(hex: string) {
   const array = []
 
-  array.push(parseInt(hex.slice(0, 2), 16))
-  array.push(parseInt(hex.slice(2, 4), 16))
-  array.push(parseInt(hex.slice(4, 6), 16))
+  array.push(parseInt(hex.slice(1, 3), 16))
+  array.push(parseInt(hex.slice(3, 5), 16))
+  array.push(parseInt(hex.slice(5, 7), 16))
 
   return array
 }

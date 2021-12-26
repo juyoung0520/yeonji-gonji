@@ -5,7 +5,6 @@ import { Link as RouterLink } from 'react-router-dom'
 import filledHeart from '@/drawables/filledHeart.png'
 import heart from '@/drawables/heart.png'
 import { Product } from '@/shared/types'
-import { calcSimilarity } from '@/shared/utils/colorUtils'
 import { addComma } from '@/shared/utils/stringUtils'
 
 interface Props {
@@ -81,6 +80,17 @@ const Heart = styled.img`
   margin: 25px;
 `
 
+const ColorCircle = styled.div<{ color: string }>`
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  outline: none;
+  box-shadow: ${(props) => props.color} 0px 0px 0px 15px inset;
+  background: transparent;
+  margin-right: 10px;
+`
+
 function ItemProductRow({ product }: Props) {
   const [likedState, setLikedState] = useState<boolean>(false)
 
@@ -105,11 +115,14 @@ function ItemProductRow({ product }: Props) {
           <span>{product.name}</span>
         </WrapInfo>
       </Link>
-      {!product.similarity && (
-        <Percentage>
-          {calcSimilarity('8C0F1E', 'CB2A2F')}
-          <span>%</span>
-        </Percentage>
+      {product.similarity && (
+        <>
+          <ColorCircle color={product.color} title={product.color} />
+          <Percentage>
+            {product.similarity}
+            <span>%</span>
+          </Percentage>
+        </>
       )}
       <Price>
         {addComma(product.price)}
