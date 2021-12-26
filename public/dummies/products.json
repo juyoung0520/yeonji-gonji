@@ -1,1495 +1,1525 @@
 {
   "products": [
     {
-      "BRND_NM": "유세린",
-      "SL_PC": 8000,
-      "PRD_NM": "유세린 아쿠아퍼 SOS 립 리페어",
-      "PRD_ID": 10008867,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210917/10008867/10008867_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 12898,
       "BRND_NM": "포렌코즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210224/10003882/10003882_D_003_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "포렌코즈 타투 끌레르 벨벳 틴트",
       "PRD_ID": 10003882,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210224/10003882/10003882_D_003_360.jpg"
+      "PRD_COLOR": "#C81C1D"
     },
     {
+      "BRND_ID": 10268,
       "BRND_NM": "삐아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201116/10006393/10006393_D_001_360.jpg",
       "SL_PC": 7000,
       "PRD_NM": "삐아 네버다이 틴트",
       "PRD_ID": 10006393,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201116/10006393/10006393_D_001_360.jpg"
+      "PRD_COLOR": "#C24E58"
     },
     {
+      "BRND_ID": 10268,
       "BRND_NM": "삐아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210924/10008881/10008881_D_001_360.jpg",
       "SL_PC": 7000,
       "PRD_NM": "삐아 라스트 파우더 립스틱 2",
       "PRD_ID": 10008881,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210924/10008881/10008881_D_001_360.jpg"
+      "PRD_COLOR": "#B17461"
     },
     {
+      "BRND_ID": 10184,
       "BRND_NM": "바세린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201127/1000126/1000126_D_002_360.png",
       "SL_PC": 5000,
       "PRD_NM": "바세린 립테라피 오리지날 립스 7g",
       "PRD_ID": 1000126,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201127/1000126/1000126_D_002_360.png"
+      "PRD_COLOR": "#DF7274"
     },
     {
+      "BRND_ID": 10268,
       "BRND_NM": "삐아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210308/10007485/10007485_D_001_360.jpg",
       "SL_PC": 7000,
       "PRD_NM": "삐아 네버다이 틴트2",
       "PRD_ID": 10007485,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210308/10007485/10007485_D_001_360.jpg"
+      "PRD_COLOR": "#F43F79"
     },
     {
+      "BRND_ID": 12783,
       "BRND_NM": "블랙루즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201021/10006295/10006295_D_001_360.jpg",
       "SL_PC": 14900,
       "PRD_NM": "블랙루즈 에어 핏 벨벳틴트7",
       "PRD_ID": 10006295,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201021/10006295/10006295_D_001_360.jpg"
+      "PRD_COLOR": "#DB2A01"
     },
     {
+      "BRND_ID": 13145,
       "BRND_NM": "키핀터치",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210126/10007004/10007004_D_001_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "온라인단독) 키핀터치 무드 엠엘비비 벨벳틴트",
       "PRD_ID": 10007004,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210126/10007004/10007004_D_001_360.jpg"
+      "PRD_COLOR": "#D93B3D"
     },
     {
+      "BRND_ID": 10079,
       "BRND_NM": "DPC",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191105/10002228/10002228_D_002_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "DPC 립 에너지 오일",
       "PRD_ID": 10002228,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191105/10002228/10002228_D_002_360.jpg"
+      "PRD_COLOR": "#F299B9"
     },
     {
+      "BRND_ID": 12796,
       "BRND_NM": "롬앤",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190827/10002543/10002543_D_002_360.png",
       "SL_PC": 9900,
       "PRD_NM": "롬앤 제로 벨벳 틴트",
       "PRD_ID": 10002543,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190827/10002543/10002543_D_002_360.png"
+      "PRD_COLOR": "#C23334"
     },
     {
+      "BRND_ID": 10184,
       "BRND_NM": "바세린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20181112/10002134/10002134_D_001_360.JPG",
       "SL_PC": 4200,
       "PRD_NM": "바세린 립테라피 로지립스 케어 스틱 4.8g",
       "PRD_ID": 10002134,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20181112/10002134/10002134_D_001_360.JPG"
+      "PRD_COLOR": "#F02A47"
     },
     {
+      "BRND_ID": 13026,
       "BRND_NM": "플린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008808/10008808_D_001_360.jpg",
       "SL_PC": 13000,
       "PRD_NM": "플린 어딕션 벨벳 틴트 105,204,206 (22.03까지)",
       "PRD_ID": 10008808,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008808/10008808_D_001_360.jpg"
+      "PRD_COLOR": "#EA6B6D"
     },
     {
+      "BRND_ID": 10176,
       "BRND_NM": "이글립스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201211/10006546/10006546_D_001_360.jpg",
       "SL_PC": 7000,
       "PRD_NM": "이글립스 블러 파우더 틴트",
       "PRD_ID": 10006546,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201211/10006546/10006546_D_001_360.jpg"
+      "PRD_COLOR": "#BF594D"
     },
     {
+      "BRND_ID": 10082,
       "BRND_NM": "페리페라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190225/10002594/10002594_D_001_360.jpg",
       "SL_PC": 11000,
       "PRD_NM": "페리페라 잉크더에어리벨벳스틱",
       "PRD_ID": 10002594,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190225/10002594/10002594_D_001_360.jpg"
+      "PRD_COLOR": "#BC4749"
     },
     {
-      "BRND_NM": "유리아쥬",
-      "SL_PC": 18000,
-      "PRD_NM": "유리아쥬 스틱레브르 오리지널 4g 듀오",
-      "PRD_ID": 10006099,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200826/10006099/10006099_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 10226,
       "BRND_NM": "미미박스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200826/10006043/10006043_D_001_360.jpg",
       "SL_PC": 12000,
       "PRD_NM": "아임미미 미스터리 플래시 틴트 (22.05까지)",
       "PRD_ID": 10006043,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200826/10006043/10006043_D_001_360.jpg"
+      "PRD_COLOR": "#DD1B3D"
     },
     {
-      "BRND_NM": "유리아쥬",
-      "SL_PC": 15000,
-      "PRD_NM": "유리아쥬 배리어덤 시카레브르 15ml",
-      "PRD_ID": 1000349,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1000349/1000349_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "바세린",
-      "SL_PC": 4200,
-      "PRD_NM": "바세린 립 테라피 민트 스틱",
-      "PRD_ID": 10008879,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210923/10008879/10008879_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 10082,
       "BRND_NM": "페리페라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210413/10004594/10004594_D_002_360.jpg",
       "SL_PC": 9000,
       "PRD_NM": "페리페라 잉크더벨벳AD",
       "PRD_ID": 10004594,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210413/10004594/10004594_D_002_360.jpg"
+      "PRD_COLOR": "#BB3534"
     },
     {
+      "BRND_ID": 13026,
       "BRND_NM": "플린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200520/10005236/10005236_D_001_360.jpg",
       "SL_PC": 13000,
       "PRD_NM": "플린 어딕션 벨벳 틴트",
       "PRD_ID": 10005236,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200520/10005236/10005236_D_001_360.jpg"
+      "PRD_COLOR": "#CC1F1D"
     },
     {
+      "BRND_ID": 10268,
       "BRND_NM": "삐아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210728/10008613/10008613_D_001_360.jpg",
       "SL_PC": 6500,
       "PRD_NM": "삐아 글로우 립 틴트",
       "PRD_ID": 10008613,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210728/10008613/10008613_D_001_360.jpg"
+      "PRD_COLOR": "#E06562"
     },
     {
+      "BRND_ID": 10268,
       "BRND_NM": "삐아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1003271/1003271_D_001_360.jpg",
       "SL_PC": 6000,
       "PRD_NM": "삐아 라스트 벨벳 립 틴트 [꽃]",
       "PRD_ID": 1003271,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1003271/1003271_D_001_360.jpg"
+      "PRD_COLOR": "#E6655F"
     },
     {
+      "BRND_ID": 10268,
       "BRND_NM": "삐아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210728/10008611/10008611_D_001_360.jpg",
       "SL_PC": 7000,
       "PRD_NM": "삐아 라스트 파우더 립스틱",
       "PRD_ID": 10008611,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210728/10008611/10008611_D_001_360.jpg"
+      "PRD_COLOR": "#C9725D"
     },
     {
+      "BRND_ID": 12796,
       "BRND_NM": "롬앤",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200730/10005494/10005494_D_001_360.jpg",
       "SL_PC": 12000,
       "PRD_NM": "롬앤 제로 매트 립스틱",
       "PRD_ID": 10005494,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200730/10005494/10005494_D_001_360.jpg"
+      "PRD_COLOR": "#B03831"
     },
     {
+      "BRND_ID": 12898,
       "BRND_NM": "포렌코즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210224/10004880/10004880_D_002_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "포렌코즈 타투 끌레르 벨벳 틴트 [들꽃MLBB]",
       "PRD_ID": 10004880,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210224/10004880/10004880_D_002_360.jpg"
+      "PRD_COLOR": "#DB6D53"
     },
     {
+      "BRND_ID": 12783,
       "BRND_NM": "블랙루즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008810/10008810_D_001_360.jpg",
       "SL_PC": 14900,
       "PRD_NM": "블랙루즈 크림 마뜨 루즈3",
       "PRD_ID": 10008810,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008810/10008810_D_001_360.jpg"
+      "PRD_COLOR": "#E16354"
     },
     {
+      "BRND_ID": 10268,
       "BRND_NM": "삐아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1003270/1003270_D_001_360.jpg",
       "SL_PC": 6000,
       "PRD_NM": "삐아 라스트 벨벳 립 틴트 [보스]",
       "PRD_ID": 1003270,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1003270/1003270_D_001_360.jpg"
+      "PRD_COLOR": "#B8494E"
     },
     {
-      "BRND_NM": "포렌코즈",
-      "SL_PC": 16000,
-      "PRD_NM": "포렌코즈 미니 세투",
-      "PRD_ID": 10008464,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210628/10008464/10008464_D_002_360.png"
-    },
-    {
+      "BRND_ID": 12798,
       "BRND_NM": "어퓨",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190130/10002498/10002498_D_001_360.jpg",
       "SL_PC": 8000,
       "PRD_NM": "어퓨 과즙팡 틴트",
       "PRD_ID": 10002498,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190130/10002498/10002498_D_001_360.jpg"
+      "PRD_COLOR": "#FA6D5C"
     },
     {
+      "BRND_ID": 12783,
       "BRND_NM": "블랙루즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191223/10004522/10004522_D_001_360.jpg",
       "SL_PC": 14900,
       "PRD_NM": "블랙루즈 에어핏벨벳틴트4",
       "PRD_ID": 10004522,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191223/10004522/10004522_D_001_360.jpg"
+      "PRD_COLOR": "#CD4050"
     },
     {
+      "BRND_ID": 12796,
       "BRND_NM": "롬앤",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190417/10002703/10002703_D_002_360.png",
       "SL_PC": 9900,
       "PRD_NM": "롬앤 쥬시 래스팅 틴트",
       "PRD_ID": 10002703,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190417/10002703/10002703_D_002_360.png"
+      "PRD_COLOR": "#AE3538"
     },
     {
-      "BRND_NM": "히말라야",
-      "SL_PC": 3900,
-      "PRD_NM": "히말라야 울트라 모이스쳐라이징 코코아버터 립밤 10g",
-      "PRD_ID": 10002325,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191122/10002325/10002325_D_002_360.jpg"
-    },
-    {
-      "BRND_NM": "온더바디",
-      "SL_PC": 3000,
-      "PRD_NM": "온더바디 벨먼 케어 틴티드 립밤 스트로베리",
-      "PRD_ID": 10008975,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211027/10008975/10008975_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 10003,
       "BRND_NM": "부르조아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210125/10005845/10005845_D_003_360.jpg",
       "SL_PC": 23000,
       "PRD_NM": "부르조아 벨벳 더 펜슬",
       "PRD_ID": 10005845,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210125/10005845/10005845_D_003_360.jpg"
+      "PRD_COLOR": "#D94F5E"
     },
     {
+      "BRND_ID": 13075,
       "BRND_NM": "베리썸",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200827/10006065/10006065_D_001_360.jpg",
       "SL_PC": 12000,
       "PRD_NM": "베리썸 리얼미 바운시 립밤",
       "PRD_ID": 10006065,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200827/10006065/10006065_D_001_360.jpg"
+      "PRD_COLOR": "#FF7B7F"
     },
     {
+      "BRND_ID": 12935,
       "BRND_NM": "셀프뷰티",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191227/10004586/10004586_D_001_360.jpg",
       "SL_PC": 12000,
       "PRD_NM": "셀프뷰티 뷰티튜드 쉬어 매트 립",
       "PRD_ID": 10004586,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191227/10004586/10004586_D_001_360.jpg"
+      "PRD_COLOR": "#981721"
     },
     {
-      "BRND_NM": "온더바디",
-      "SL_PC": 6900,
-      "PRD_NM": "온더바디 카카오 라이언 립밤 모이스처",
-      "PRD_ID": 10008973,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211027/10008973/10008973_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 13244,
       "BRND_NM": "헤이비비",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210629/10008381/10008381_D_001_360.jpg",
       "SL_PC": 23000,
       "PRD_NM": "헤이비비 매트 모이스트 립스틱 베베핑크",
       "PRD_ID": 10008381,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210629/10008381/10008381_D_001_360.jpg"
+      "PRD_COLOR": "#E78280"
     },
     {
+      "BRND_ID": 13253,
       "BRND_NM": "네츄럴샤인",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210720/10008544/10008544_D_001_360.jpg",
       "SL_PC": 12700,
       "PRD_NM": "네츄럴샤인 럭스 트리플 립큐어밤 아테나 5g",
       "PRD_ID": 10008544,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210720/10008544/10008544_D_001_360.jpg"
+      "PRD_COLOR": "#DE4D42"
     },
     {
+      "BRND_ID": 12898,
       "BRND_NM": "포렌코즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210224/10005109/10005109_D_003_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "포렌코즈 타투 페일 벨벳 틴트",
       "PRD_ID": 10005109,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210224/10005109/10005109_D_003_360.jpg"
+      "PRD_COLOR": "#FB7F63"
     },
     {
+      "BRND_ID": 10268,
       "BRND_NM": "삐아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190307/10002554/10002554_D_002_360.png",
       "SL_PC": 6000,
       "PRD_NM": "삐아 라스트 벨벳 립 틴트 [정석]",
       "PRD_ID": 10002554,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190307/10002554/10002554_D_002_360.png"
+      "PRD_COLOR": "#BB4635"
     },
     {
+      "BRND_ID": 10228,
       "BRND_NM": "클리오",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200311/10004907/10004907_D_001_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "클리오 매드매트스테인틴트 04,10호 (22.02까지)",
       "PRD_ID": 10004907,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200311/10004907/10004907_D_001_360.jpg"
+      "PRD_COLOR": "#BA2829"
     },
     {
+      "BRND_ID": 13227,
       "BRND_NM": "아이빔",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210510/10008093/10008093_D_001_360.jpg",
       "SL_PC": 9000,
       "PRD_NM": "아이빔 벨벳 스무디 립 틴트",
       "PRD_ID": 10008093,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210510/10008093/10008093_D_001_360.jpg"
+      "PRD_COLOR": "#B60B00"
     },
     {
+      "BRND_ID": 13026,
       "BRND_NM": "플린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210621/10008404/10008404_D_001_360.jpg",
       "SL_PC": 13000,
       "PRD_NM": "플린 어딕션 벨벳 틴트 102,202호 (22.02까지)",
       "PRD_ID": 10008404,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210621/10008404/10008404_D_001_360.jpg"
+      "PRD_COLOR": "#A82428"
     },
     {
+      "BRND_ID": 12798,
       "BRND_NM": "어퓨",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210518/10008130/10008130_F_002_360.jpg",
       "SL_PC": 9000,
       "PRD_NM": "어퓨 과즙팡 워터 틴트",
       "PRD_ID": 10008130,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210518/10008130/10008130_F_002_360.jpg"
+      "PRD_COLOR": "#CA2A32"
     },
     {
+      "BRND_ID": 10176,
       "BRND_NM": "이글립스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200520/10005218/10005218_D_001_360.jpg",
       "SL_PC": 7000,
       "PRD_NM": "EGLIPS 워터 글레이즈 틴트",
       "PRD_ID": 10005218,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200520/10005218/10005218_D_001_360.jpg"
+      "PRD_COLOR": "#D0493D"
     },
     {
-      "BRND_NM": "리얼베리어",
-      "SL_PC": 7000,
-      "PRD_NM": "리얼베리어 익스트림 립 리페어",
-      "PRD_ID": 1002958,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180814/1002958/1002958_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "아이빔",
-      "SL_PC": 9000,
-      "PRD_NM": "아이빔 프리즘 립 글로스",
-      "PRD_ID": 10008094,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210510/10008094/10008094_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 10003,
       "BRND_NM": "부르조아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201218/1003282/1003282_D_002_360.jpg",
       "SL_PC": 28000,
       "PRD_NM": "부르조아 루즈에디션 벨벳",
       "PRD_ID": 1003282,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201218/1003282/1003282_D_002_360.jpg"
+      "PRD_COLOR": "#c30816"
     },
     {
+      "BRND_ID": 13145,
       "BRND_NM": "키핀터치",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210126/10007005/10007005_D_001_360.jpg",
       "SL_PC": 20000,
       "PRD_NM": "온라인단독) 키핀터치 젤리 립 플럼퍼 틴트",
       "PRD_ID": 10007005,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210126/10007005/10007005_D_001_360.jpg"
+      "PRD_COLOR": "#FF7586"
     },
     {
+      "BRND_ID": 10082,
       "BRND_NM": "페리페라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201028/10006281/10006281_D_001_360.jpg",
       "SL_PC": 10000,
       "PRD_NM": "페리페라 잉크무드드롭틴트",
       "PRD_ID": 10006281,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201028/10006281/10006281_D_001_360.jpg"
+      "PRD_COLOR": "#F54E3B"
     },
     {
+      "BRND_ID": 10082,
       "BRND_NM": "페리페라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210811/10003613/10003613_B_003_360.jpg",
       "SL_PC": 9000,
       "PRD_NM": "페리페라 잉크더에어리벨벳AD",
       "PRD_ID": 10003613,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210811/10003613/10003613_B_003_360.jpg"
+      "PRD_COLOR": "#EA6F65"
     },
     {
-      "BRND_NM": "유리아쥬",
-      "SL_PC": 16000,
-      "PRD_NM": "유리아쥬 제모스스틱레브르 듀오 기획",
-      "PRD_ID": 10002896,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200924/10002896/10002896_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 10226,
       "BRND_NM": "미미박스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180829/10001929/10001929_D_001_360.jpg",
       "SL_PC": 15000,
       "PRD_NM": "아임미미 아임틱톡틴트립캐시미어",
       "PRD_ID": 10001929,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180829/10001929/10001929_D_001_360.jpg"
+      "PRD_COLOR": "#AB1A1D"
     },
     {
-      "BRND_NM": "맨소래담",
-      "SL_PC": 4200,
-      "PRD_NM": "맨소래담 립아이스 스트로베리 SPF 15",
-      "PRD_ID": 1001756,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210104/1001756/1001756_D_004_360.jpg"
-    },
-    {
+      "BRND_ID": 10082,
       "BRND_NM": "페리페라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200826/10006066/10006066_D_001_360.jpg",
       "SL_PC": 11000,
       "PRD_NM": "페리페라 잉크 스틱 세럼",
       "PRD_ID": 10006066,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200826/10006066/10006066_D_001_360.jpg"
+      "PRD_COLOR": "#ED485C"
     },
     {
-      "BRND_NM": "피지오겔",
-      "SL_PC": 15000,
-      "PRD_NM": "피지오겔 DMT 마일드 립밤 4.2g",
-      "PRD_ID": 10006653,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201230/10006653/10006653_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "메디힐",
-      "SL_PC": 6000,
-      "PRD_NM": "메디힐 라보케어 판테노립스 힐밤 10ml",
-      "PRD_ID": 1002547,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180815/1002547/1002547_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "소프트립스",
-      "SL_PC": 4300,
-      "PRD_NM": "소프트립스 라즈베리 립밤 SPF20",
-      "PRD_ID": 10006089,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200907/10006089/10006089_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "카멕스",
-      "SL_PC": 4000,
-      "PRD_NM": "카멕스 모이스처라이징 립밤 클래식 스틱",
-      "PRD_ID": 10005944,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200814/10005944/10005944_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 13121,
       "BRND_NM": "파이브바이브",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201216/10006547/10006547_F_006_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "[업체택배] 파이브바이브 루디 핑크 립 헐모사",
       "PRD_ID": 10006547,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201216/10006547/10006547_F_006_360.jpg"
+      "PRD_COLOR": "#EB9E98"
     },
     {
+      "BRND_ID": 10184,
       "BRND_NM": "바세린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201020/10006214/10006214_D_003_360.png",
       "SL_PC": 9900,
       "PRD_NM": "바세린 립테라피 컬러&케어",
       "PRD_ID": 10006214,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201020/10006214/10006214_D_003_360.png"
+      "PRD_COLOR": "#CB2D2A"
     },
     {
-      "BRND_NM": "니베아",
-      "SL_PC": 4100,
-      "PRD_NM": "니베아 립케어 에센셜",
-      "PRD_ID": 1000393,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1000393/1000393_D_003_360.jpg"
-    },
-    {
+      "BRND_ID": 13058,
       "BRND_NM": "달트",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200806/10005665/10005665_D_002_360.jpg",
       "SL_PC": 15000,
       "PRD_NM": "[업체택배] 달립 올데이 무드 립스틱 # 4 달트누디",
       "PRD_ID": 10005665,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200806/10005665/10005665_D_002_360.jpg"
+      "PRD_COLOR": "#EFB7A8"
     },
     {
+      "BRND_ID": 10424,
       "BRND_NM": "메이블린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210401/10005809/10005809_D_002_360.jpg",
       "SL_PC": 14000,
       "PRD_NM": "메이블린뉴욕 슈퍼 스테이 립 크레용",
       "PRD_ID": 10005809,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210401/10005809/10005809_D_002_360.jpg"
+      "PRD_COLOR": "#BE6382"
     },
     {
-      "BRND_NM": "온더바디",
-      "SL_PC": 4900,
-      "PRD_NM": "온더바디 니니즈 치얼업 니니즈 립밤",
-      "PRD_ID": 10006202,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200924/10006202/10006202_D_002_360.jpg"
-    },
-    {
+      "BRND_ID": 12798,
       "BRND_NM": "어퓨",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201118/10006409/10006409_D_001_360.png",
       "SL_PC": 9000,
       "PRD_NM": "어퓨 과즙팡 컬러 립밤",
       "PRD_ID": 10006409,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201118/10006409/10006409_D_001_360.png"
+      "PRD_COLOR": "#FD8491"
     },
     {
+      "BRND_ID": 10082,
       "BRND_NM": "페리페라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210924/10008889/10008889_D_001_360.jpg",
       "SL_PC": 11000,
       "PRD_NM": "페리페라 잉크더에어리벨벳스틱 008감성충만 (22.02까지)",
       "PRD_ID": 10008889,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210924/10008889/10008889_D_001_360.jpg"
+      "PRD_COLOR": "#DA3C3B"
     },
     {
+      "BRND_ID": 13262,
       "BRND_NM": "피치포포",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210806/10008667/10008667_D_008_360.jpg",
       "SL_PC": 22000,
       "PRD_NM": "[업체택배] 피치포포 소프트벨벳립스틱 누드케이크 3.5g",
       "PRD_ID": 10008667,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210806/10008667/10008667_D_008_360.jpg"
+      "PRD_COLOR": "#F58872"
     },
     {
+      "BRND_ID": 13148,
       "BRND_NM": "뮤드",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210203/10007072/10007072_D_002_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "[업체택배] 뮤드 인스파이어 마뜨 03 걸리쉬샌드",
       "PRD_ID": 10007072,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210203/10007072/10007072_D_002_360.jpg"
+      "PRD_COLOR": "#C94329"
     },
     {
+      "BRND_ID": 12765,
       "BRND_NM": "피치씨",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201020/10006275/10006275_D_001_360.jpg",
       "SL_PC": 15000,
       "PRD_NM": "피치씨 포시즌 엠엘비비 립스틱",
       "PRD_ID": 10006275,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201020/10006275/10006275_D_001_360.jpg"
+      "PRD_COLOR": "#EE654B"
     },
     {
+      "BRND_ID": 13262,
       "BRND_NM": "피치포포",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210806/10008663/10008663_D_008_360.jpg",
       "SL_PC": 22000,
       "PRD_NM": "[업체택배] 피치포포 소프트벨벳립스틱 레드썸 3.5g",
       "PRD_ID": 10008663,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210806/10008663/10008663_D_008_360.jpg"
+      "PRD_COLOR": "#E94642"
     },
     {
+      "BRND_ID": 13121,
       "BRND_NM": "파이브바이브",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201216/10006549/10006549_R_005_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "[업체택배] 파이브바이브 루디 핑크 립 베러네즈",
       "PRD_ID": 10006549,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201216/10006549/10006549_R_005_360.jpg"
+      "PRD_COLOR": "#BF615B"
     },
     {
+      "BRND_ID": 10082,
       "BRND_NM": "페리페라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200311/10004908/10004908_D_001_360.jpg",
       "SL_PC": 9000,
       "PRD_NM": "페리페라 잉크타투스틱",
       "PRD_ID": 10004908,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200311/10004908/10004908_D_001_360.jpg"
+      "PRD_COLOR": "#D33641"
     },
     {
+      "BRND_ID": 13262,
       "BRND_NM": "피치포포",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210806/10008666/10008666_D_008_360.jpg",
       "SL_PC": 22000,
       "PRD_NM": "[업체택배] 피치포포 소프트벨벳립스틱 스파클링오렌지 3.5g",
       "PRD_ID": 10008666,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210806/10008666/10008666_D_008_360.jpg"
+      "PRD_COLOR": "#FA6A55"
     },
     {
+      "BRND_ID": 13121,
       "BRND_NM": "파이브바이브",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201216/10006550/10006550_R_005_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "[업체택배] 파이브바이브 루디 핑크 립 올포러브",
       "PRD_ID": 10006550,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201216/10006550/10006550_R_005_360.jpg"
+      "PRD_COLOR": "#DE6769"
     },
     {
+      "BRND_ID": 10114,
       "BRND_NM": "루나",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008824/10008824_D_001_360.jpg",
       "SL_PC": 20000,
       "PRD_NM": "루나 리얼웨이 벨벳 립스틱 7,8호 (22.05까지)",
       "PRD_ID": 10008824,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008824/10008824_D_001_360.jpg"
+      "PRD_COLOR": "#E43E45"
     },
     {
+      "BRND_ID": 10114,
       "BRND_NM": "루나",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008823/10008823_D_001_360.jpg",
       "SL_PC": 20000,
       "PRD_NM": "루나 런웨이 크림 립스틱 6호 플라밍고핑크 (22.05까지)",
       "PRD_ID": 10008823,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008823/10008823_D_001_360.jpg"
+      "PRD_COLOR": "#E13F45"
     },
     {
+      "BRND_ID": 13148,
       "BRND_NM": "뮤드",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210203/10007071/10007071_D_002_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "[업체택배] 뮤드 인스파이어 마뜨 02 쿨 글리밍",
       "PRD_ID": 10007071,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210203/10007071/10007071_D_002_360.jpg"
+      "PRD_COLOR": "#BB2D43"
     },
     {
+      "BRND_ID": 13058,
       "BRND_NM": "달트",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200805/10005666/10005666_D_002_360.jpg",
       "SL_PC": 15000,
       "PRD_NM": "[업체택배] 달립 올데이 무드 립스틱 # 3 달트코랄",
       "PRD_ID": 10005666,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200805/10005666/10005666_D_002_360.jpg"
+      "PRD_COLOR": "#CF5E44"
     },
     {
+      "BRND_ID": 12946,
       "BRND_NM": "레어카인드",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210329/10004864/10004864_D_003_360.jpg",
       "SL_PC": 18000,
       "PRD_NM": "레어카인드 페이드 매트 립스틱",
       "PRD_ID": 10004864,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210329/10004864/10004864_D_003_360.jpg"
+      "PRD_COLOR": "#F05559"
     },
     {
+      "BRND_ID": 13148,
       "BRND_NM": "뮤드",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210203/10007073/10007073_D_002_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "[업체택배] 뮤드 인스파이어 마뜨 04 코랄리썸",
       "PRD_ID": 10007073,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210203/10007073/10007073_D_002_360.jpg"
+      "PRD_COLOR": "#E14F5E"
     },
     {
+      "BRND_ID": 13263,
       "BRND_NM": "이너펄스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210722/10008622/10008622_D_001_360.jpg",
       "SL_PC": 25000,
       "PRD_NM": "이너펄스 모니카 매트 립스틱 3.5g",
       "PRD_ID": 10008622,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210722/10008622/10008622_D_001_360.jpg"
+      "PRD_COLOR": "#B23F55"
     },
     {
+      "BRND_ID": 13058,
       "BRND_NM": "달트",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200805/10005667/10005667_D_001_360.jpg",
       "SL_PC": 15000,
       "PRD_NM": "[업체택배] 달립 올데이 무드 립스틱 # 2 달트핑크",
       "PRD_ID": 10005667,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200805/10005667/10005667_D_001_360.jpg"
+      "PRD_COLOR": "#A53950"
     },
     {
-      "BRND_NM": "삐아",
-      "SL_PC": 6000,
-      "PRD_NM": "삐아 라스트 립스틱Ⅰ",
-      "PRD_ID": 1003264,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1003264/1003264_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 13148,
       "BRND_NM": "뮤드",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210203/10007066/10007066_D_002_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "[업체택배] 뮤드 인스파이어 마뜨 01 클리어뮤즈",
       "PRD_ID": 10007066,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210203/10007066/10007066_D_002_360.jpg"
+      "PRD_COLOR": "#D05C61"
     },
     {
+      "BRND_ID": 13253,
       "BRND_NM": "네츄럴샤인",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210720/10008545/10008545_D_001_360.jpg",
       "SL_PC": 12700,
       "PRD_NM": "네츄럴샤인 럭스 트리플 립큐어밤 테이아 5g",
       "PRD_ID": 10008545,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210720/10008545/10008545_D_001_360.jpg"
+      "PRD_COLOR": "#CB3637"
     },
     {
+      "BRND_ID": 10066,
       "BRND_NM": "마몽드",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200830/10005797/10005797_D_001_360.png",
       "SL_PC": 12000,
       "PRD_NM": "마몽드 크리미틴트 컬러밤 글라이드",
       "PRD_ID": 10005797,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200830/10005797/10005797_D_001_360.png"
+      "PRD_COLOR": "#E96A6A"
     },
     {
+      "BRND_ID": 10072,
       "BRND_NM": "온더바디",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191008/10004249/10004249_D_001_360.png",
       "SL_PC": 10900,
       "PRD_NM": "온더바디 카카오 키링 틴티드 립밤 리틀어피치 6g",
       "PRD_ID": 10004249,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191008/10004249/10004249_D_001_360.png"
+      "PRD_COLOR": "#CB2147"
     },
     {
-      "BRND_NM": "맨소래담",
-      "SL_PC": 6800,
-      "PRD_NM": "맨소래담 딥모이스트 내추럴",
-      "PRD_ID": 1001760,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20181023/1001760/1001760_D_002_360.jpg"
-    },
-    {
+      "BRND_ID": 10114,
       "BRND_NM": "루나",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20181010/10002049/10002049_D_001_360.jpg",
       "SL_PC": 20000,
       "PRD_NM": "루나 리얼웨이 벨벳 립스틱 1~6호",
       "PRD_ID": 10002049,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20181010/10002049/10002049_D_001_360.jpg"
+      "PRD_COLOR": "#C75952"
     },
     {
-      "BRND_NM": "바세린",
-      "SL_PC": 3200,
-      "PRD_NM": "바세린 어드밴스드 에센스 립 10g",
-      "PRD_ID": 1001353,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180814/1001353/1001353_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "카멕스",
-      "SL_PC": 4000,
-      "PRD_NM": "카멕스 모이스처라이징 립밤 클래식 튜브",
-      "PRD_ID": 10004284,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191021/10004284/10004284_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "카멕스",
-      "SL_PC": 4000,
-      "PRD_NM": "카멕스 모이스처라이징 립밤 체리 튜브",
-      "PRD_ID": 10005942,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201015/10005942/10005942_D_002_360.jpg"
-    },
-    {
+      "BRND_ID": 10148,
       "BRND_NM": "니베아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1000416/1000416_D_001_360.jpg",
       "SL_PC": 4100,
       "PRD_NM": "니베아 후르티샤인 피치",
       "PRD_ID": 1000416,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1000416/1000416_D_001_360.jpg"
+      "PRD_COLOR": "#F0695E"
     },
     {
-      "BRND_NM": "바세린",
-      "SL_PC": 3200,
-      "PRD_NM": "바세린 체리에센스립 10g",
-      "PRD_ID": 10005834,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200919/10005834/10005834_D_003_360.jpg"
-    },
-    {
-      "BRND_NM": "온더바디",
-      "SL_PC": 3000,
-      "PRD_NM": "온더바디 벨먼 케어 립밤 알로에",
-      "PRD_ID": 10008976,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211027/10008976/10008976_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "니베아",
-      "SL_PC": 4100,
-      "PRD_NM": "니베아 립케어 모이스처",
-      "PRD_ID": 1000400,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1000400/1000400_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "니베아",
-      "SL_PC": 4100,
-      "PRD_NM": "니베아 립케어 마이노 블루 (모이스춰)",
-      "PRD_ID": 10006221,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200922/10006221/10006221_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 10228,
       "BRND_NM": "클리오",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210520/10008179/10008179_D_001_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "클리오 매드매트립(18AD)023란제리쇼 (22.07까지)",
       "PRD_ID": 10008179,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210520/10008179/10008179_D_001_360.jpg"
+      "PRD_COLOR": "#EF5D5D"
     },
     {
+      "BRND_ID": 13226,
       "BRND_NM": "뷰아라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210507/10008086/10008086_D_001_360.png",
       "SL_PC": 19000,
       "PRD_NM": "[업체배송] 뷰아라 수분 글로시 틴트 샤이니 핑크",
       "PRD_ID": 10008086,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210507/10008086/10008086_D_001_360.png"
+      "PRD_COLOR": "#B02D45"
     },
     {
-      "BRND_NM": "네이크업페이스",
-      "SL_PC": 18000,
-      "PRD_NM": "네이크업페이스 C컵 딥 볼륨 립톡스",
-      "PRD_ID": 1001957,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180810/L10001957/L10001957_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 10121,
       "BRND_NM": "맨소래담",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210104/1001761/1001761_D_002_360.jpg",
       "SL_PC": 5400,
       "PRD_NM": "맨소래담 립아이스 틴티드 컬러 레드 SPF 15",
       "PRD_ID": 1001761,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210104/1001761/1001761_D_002_360.jpg"
+      "PRD_COLOR": "#DC5259"
     },
     {
+      "BRND_ID": 10047,
       "BRND_NM": "메디힐",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180815/1002548/1002548_D_001_360.jpg",
       "SL_PC": 6000,
       "PRD_NM": "메디힐 라보케어 판테노립스 힐센스 10ml",
       "PRD_ID": 1002548,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180815/1002548/1002548_D_001_360.jpg"
+      "PRD_COLOR": "#FC93A1"
     },
     {
-      "BRND_NM": "바이오더마",
-      "SL_PC": 15000,
-      "PRD_NM": "바이오더마 아토덤 립케어 스틱 4g",
-      "PRD_ID": 1000290,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20181031/1000290/1000290_D_003_360.jpg"
-    },
-    {
-      "BRND_NM": "아벤느",
-      "SL_PC": 14000,
-      "PRD_NM": "아벤느 시칼파트 립밤 10ml",
-      "PRD_ID": 10004895,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200312/10004895/10004895_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "맨소래담",
-      "SL_PC": 4300,
-      "PRD_NM": "소프트립스 워터멜론 립밤 SPF20",
-      "PRD_ID": 10006426,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201123/10006426/10006426_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "히말라야",
-      "SL_PC": 3900,
-      "PRD_NM": "히말라야 스트로베리 글로스 립밤 10g",
-      "PRD_ID": 10002324,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191122/10002324/10002324_D_005_360.jpg"
-    },
-    {
+      "BRND_ID": 10148,
       "BRND_NM": "니베아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180821/1000394/1000394_D_001_360.jpg",
       "SL_PC": 4100,
       "PRD_NM": "니베아 립케어 후르츠스트로베리",
       "PRD_ID": 1000394,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180821/1000394/1000394_D_001_360.jpg"
+      "PRD_COLOR": "#D81E27"
     },
     {
-      "BRND_NM": "니베아",
-      "SL_PC": 4100,
-      "PRD_NM": "니베아 립케어 마이노 레드 (딸기)",
-      "PRD_ID": 10006220,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200922/10006220/10006220_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 10164,
       "BRND_NM": "네이크업페이스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200814/10005723/10005723_D_001_360.jpg",
       "SL_PC": 18000,
       "PRD_NM": "네이크업페이스 C컵 딥볼륨 립톡스 청담동 코랄",
       "PRD_ID": 10005723,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200814/10005723/10005723_D_001_360.jpg"
+      "PRD_COLOR": "#FF8279"
     },
     {
-      "BRND_NM": "맨소래담",
-      "SL_PC": 4200,
-      "PRD_NM": "맨소래담 립아이스레몬 SPF 15",
-      "PRD_ID": 10005803,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200828/10005803/10005803_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "니베아",
-      "SL_PC": 4100,
-      "PRD_NM": "니베아 립케어 후르츠샤인체리",
-      "PRD_ID": 1000401,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1000401/1000401_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "온더바디",
-      "SL_PC": 6900,
-      "PRD_NM": "온더바디 리틀 키스미 틴티드 립밤",
-      "PRD_ID": 10006199,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200921/10006199/10006199_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "소프트립스",
-      "SL_PC": 4300,
-      "PRD_NM": "소프트립스 프렌치 바닐라 립밤 SPF20",
-      "PRD_ID": 10006088,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200907/10006088/10006088_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 10164,
       "BRND_NM": "네이크업페이스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20181029/10002115/10002115_D_001_360.jpg",
       "SL_PC": 18000,
       "PRD_NM": "네이크업페이스 C컵딥볼륨립톡스 발레리나핑크",
       "PRD_ID": 10002115,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20181029/10002115/10002115_D_001_360.jpg"
+      "PRD_COLOR": "#EF5D8A"
     },
     {
+      "BRND_ID": 10148,
       "BRND_NM": "니베아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200117/10004657/10004657_D_001_360.jpg",
       "SL_PC": 8600,
       "PRD_NM": "니베아 립케어 립크레용",
       "PRD_ID": 10004657,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200117/10004657/10004657_D_001_360.jpg"
+      "PRD_COLOR": "#D9272D"
     },
     {
-      "BRND_NM": "버츠비",
-      "SL_PC": 6000,
-      "PRD_NM": "버츠비 모이춰라이징 립밤",
-      "PRD_ID": 1003283,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1003283/1003283_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 13026,
       "BRND_NM": "플린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200826/10006071/10006071_D_001_360.jpg",
       "SL_PC": 12000,
       "PRD_NM": "플린 스테이인 워터 틴트 401,402,404,406호",
       "PRD_ID": 10006071,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200826/10006071/10006071_D_001_360.jpg"
+      "PRD_COLOR": "#DC192A"
     },
     {
-      "BRND_NM": "온더바디",
-      "SL_PC": 10900,
-      "PRD_NM": "온더바디 카카오 키링 립밤 리틀라이언 6g",
-      "PRD_ID": 10004250,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191008/10004250/10004250_D_001_360.png"
-    },
-    {
-      "BRND_NM": "네이크업페이스",
-      "SL_PC": 16000,
-      "PRD_NM": "네이크업페이스 촉촉딥앰플 립오일",
-      "PRD_ID": 1001956,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180810/L10001956/L10001956_D_001_360.jpg"
-    },
-    {
-      "BRND_NM": "니베아",
-      "SL_PC": 5900,
-      "PRD_NM": "니베아 립케어 내추럴리 굿 햄프 씨드 오일 4.8g",
-      "PRD_ID": 10008903,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210929/10008903/10008903_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 13226,
       "BRND_NM": "뷰아라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210507/10008087/10008087_D_001_360.png",
       "SL_PC": 19000,
       "PRD_NM": "[업체배송] 뷰아라 수분 글로시 틴트 딥 로즈",
       "PRD_ID": 10008087,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210507/10008087/10008087_D_001_360.png"
+      "PRD_COLOR": "#9C253D"
     },
     {
+      "BRND_ID": 10114,
       "BRND_NM": "루나",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200925/10006173/10006173_B_002_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "루나 글로우 샤워 틴트",
       "PRD_ID": 10006173,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200925/10006173/10006173_B_002_360.jpg"
+      "PRD_COLOR": "#E76670"
     },
     {
+      "BRND_ID": 12935,
       "BRND_NM": "셀프뷰티",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191227/10004584/10004584_D_001_360.jpg",
       "SL_PC": 14000,
       "PRD_NM": "셀프뷰티 뷰티튜드 쉬어 매트 립 틴트",
       "PRD_ID": 10004584,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191227/10004584/10004584_D_001_360.jpg"
+      "PRD_COLOR": "#D76050"
     },
     {
+      "BRND_ID": 10228,
       "BRND_NM": "클리오",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210223/10007428/10007428_F_002_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "클리오 매드벨벳틴트(20AD)",
       "PRD_ID": 10007428,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210223/10007428/10007428_F_002_360.jpg"
+      "PRD_COLOR": "#D33033"
     },
     {
+      "BRND_ID": 10228,
       "BRND_NM": "클리오",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190227/10002620/10002620_D_001_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "클리오 매드 벨벳 틴트",
       "PRD_ID": 10002620,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190227/10002620/10002620_D_001_360.jpg"
+      "PRD_COLOR": "#DF5237"
     },
     {
+      "BRND_ID": 10114,
       "BRND_NM": "루나",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190423/10003309/10003309_D_001_360.png",
       "SL_PC": 16000,
       "PRD_NM": "루나 매트틴트레더 03,04,05호",
       "PRD_ID": 10003309,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190423/10003309/10003309_D_001_360.png"
+      "PRD_COLOR": "#ED3743"
     },
     {
+      "BRND_ID": 10226,
       "BRND_NM": "미미박스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200826/10006041/10006041_D_001_360.jpg",
       "SL_PC": 12000,
       "PRD_NM": "아임미미 미스터리 블러 틴트 4,9,10호",
       "PRD_ID": 10006041,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200826/10006041/10006041_D_001_360.jpg"
+      "PRD_COLOR": "#A54E54"
     },
     {
+      "BRND_ID": 12783,
       "BRND_NM": "블랙루즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201014/10002293/10002293_D_002_360.jpg",
       "SL_PC": 14900,
       "PRD_NM": "블랙루즈 에어 핏 벨벳틴트",
       "PRD_ID": 10002293,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201014/10002293/10002293_D_002_360.jpg"
+      "PRD_COLOR": "#F02339"
     },
     {
+      "BRND_ID": 13169,
       "BRND_NM": "앤디얼",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210226/10007464/10007464_D_028_360.jpg",
       "SL_PC": 13000,
       "PRD_NM": "앤디얼 매트 립 컬러  01 디어레드",
       "PRD_ID": 10007464,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210226/10007464/10007464_D_028_360.jpg"
+      "PRD_COLOR": "#9A2535"
     },
     {
+      "BRND_ID": 12798,
       "BRND_NM": "어퓨",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210407/10003197/10003197_D_002_360.jpg",
       "SL_PC": 9000,
       "PRD_NM": "어퓨 과즙팡 무스 틴트",
       "PRD_ID": 10003197,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210407/10003197/10003197_D_002_360.jpg"
+      "PRD_COLOR": "#CF5456"
     },
     {
+      "BRND_ID": 10349,
       "BRND_NM": "캔메이크",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201217/10006564/10006564_D_001_360.jpg",
       "SL_PC": 13000,
       "PRD_NM": "캔메이크 스테이 온 밤 루즈",
       "PRD_ID": 10006564,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201217/10006564/10006564_D_001_360.jpg"
+      "PRD_COLOR": "#EB0B2F"
     },
     {
+      "BRND_ID": 10226,
       "BRND_NM": "미미박스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210706/10008519/10008519_D_001_360.jpg",
       "SL_PC": 9900,
       "PRD_NM": "아임미미 컬러 키링 워터 젤 틴트",
       "PRD_ID": 10008519,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210706/10008519/10008519_D_001_360.jpg"
+      "PRD_COLOR": "#DF0119"
     },
     {
+      "BRND_ID": 13263,
       "BRND_NM": "이너펄스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210722/10008621/10008621_D_001_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "이너펄스 파이퍼 파워 매트 립컬러 4.7g",
       "PRD_ID": 10008621,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210722/10008621/10008621_D_001_360.jpg"
+      "PRD_COLOR": "#BE4F60"
     },
     {
+      "BRND_ID": 10228,
       "BRND_NM": "클리오",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200803/10005579/10005579_D_001_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "클리오 멜팅 듀이 틴트 01~05호 (22.05까지)",
       "PRD_ID": 10005579,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200803/10005579/10005579_D_001_360.jpg"
+      "PRD_COLOR": "#E72525"
     },
     {
-      "BRND_NM": "롬앤",
-      "SL_PC": 36000,
-      "PRD_NM": "롬앤x배민 립볶이 에디션",
-      "PRD_ID": 10006558,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201223/10006558/10006558_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 13127,
       "BRND_NM": "뿌빠",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201224/10006596/10006596_D_001_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "뿌빠 메이드 투 라스트 립 듀오",
       "PRD_ID": 10006596,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201224/10006596/10006596_D_001_360.jpg"
+      "PRD_COLOR": "#D11025"
     },
     {
+      "BRND_ID": 12898,
       "BRND_NM": "포렌코즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210224/10003881/10003881_D_003_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "포렌코즈 타투 글래스 틴트",
       "PRD_ID": 10003881,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210224/10003881/10003881_D_003_360.jpg"
+      "PRD_COLOR": "#ED325A"
     },
     {
+      "BRND_ID": 10082,
       "BRND_NM": "페리페라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200224/10004836/10004836_D_001_360.jpg",
       "SL_PC": 9000,
       "PRD_NM": "페리페라 잉크틴트세럼",
       "PRD_ID": 10004836,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200224/10004836/10004836_D_001_360.jpg"
+      "PRD_COLOR": "#F73D4A"
     },
     {
+      "BRND_ID": 10096,
       "BRND_NM": "멀블리스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210927/10008891/10008891_F_002_360.JPG",
       "SL_PC": 20000,
       "PRD_NM": "멀블리스 시티 홀릭 립 글로우",
       "PRD_ID": 10008891,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210927/10008891/10008891_F_002_360.JPG"
+      "PRD_COLOR": "#EEA0B0"
     },
     {
+      "BRND_ID": 13075,
       "BRND_NM": "베리썸",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210217/10007380/10007380_D_001_360.jpg",
       "SL_PC": 15000,
       "PRD_NM": "베리썸 마이 립 틴트팩",
       "PRD_ID": 10007380,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210217/10007380/10007380_D_001_360.jpg"
+      "PRD_COLOR": "#DF6683"
     },
     {
+      "BRND_ID": 13026,
       "BRND_NM": "플린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201021/10005238/10005238_D_002_360.jpg",
       "SL_PC": 15000,
       "PRD_NM": "플린 일루션 코팅 틴트 라이트",
       "PRD_ID": 10005238,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201021/10005238/10005238_D_002_360.jpg"
+      "PRD_COLOR": "#F02F43"
     },
     {
+      "BRND_ID": 12935,
       "BRND_NM": "셀프뷰티",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200121/10004587/10004587_D_001_360.jpg",
       "SL_PC": 4900,
       "PRD_NM": "셀프뷰티 뷰티튜드 쉬어 매트 립 크로스-오버 (리필용)",
       "PRD_ID": 10004587,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200121/10004587/10004587_D_001_360.jpg"
+      "PRD_COLOR": "#C71B3B"
     },
     {
+      "BRND_ID": 13169,
       "BRND_NM": "앤디얼",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210226/10007470/10007470_D_010_360.jpg",
       "SL_PC": 13000,
       "PRD_NM": "앤디얼 매트 립 컬러 06 디어브릭",
       "PRD_ID": 10007470,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210226/10007470/10007470_D_010_360.jpg"
+      "PRD_COLOR": "#A74D4C"
     },
     {
+      "BRND_ID": 13026,
       "BRND_NM": "플린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210322/10007550/10007550_D_001_360.jpg",
       "SL_PC": 14000,
       "PRD_NM": "플린 일루션 코팅 틴트 307,310",
       "PRD_ID": 10007550,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210322/10007550/10007550_D_001_360.jpg"
+      "PRD_COLOR": "#C90919"
     },
     {
+      "BRND_ID": 10268,
       "BRND_NM": "삐아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1003267/1003267_D_001_360.jpg",
       "SL_PC": 6000,
       "PRD_NM": "삐아 라스트 벨벳 립 틴트 [갑]",
       "PRD_ID": 1003267,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180816/1003267/1003267_D_001_360.jpg"
+      "PRD_COLOR": "#E1170D"
     },
     {
+      "BRND_ID": 12798,
       "BRND_NM": "어퓨",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211108/10009033/10009033_D_001_360.jpg",
       "SL_PC": 8000,
       "PRD_NM": "어퓨 과즙팡틴트 CR01,RD01 (22.07까지)",
       "PRD_ID": 10009033,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211108/10009033/10009033_D_001_360.jpg"
+      "PRD_COLOR": "#F1343B"
     },
     {
+      "BRND_ID": 10349,
       "BRND_NM": "캔메이크",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211108/10009034/10009034_D_001_360.jpg",
       "SL_PC": 15000,
       "PRD_NM": "캔메이크 립 틴트 시럽 05호 (22.07까지)",
       "PRD_ID": 10009034,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211108/10009034/10009034_D_001_360.jpg"
+      "PRD_COLOR": "#DA5AA4"
     },
     {
+      "BRND_ID": 13026,
       "BRND_NM": "플린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211108/10009035/10009035_D_001_360.jpg",
       "SL_PC": 14000,
       "PRD_NM": "플린 일루션 코팅 틴트 311 비터스윗 (22.07까지)",
       "PRD_ID": 10009035,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211108/10009035/10009035_D_001_360.jpg"
+      "PRD_COLOR": "#DE4D1A"
     },
     {
+      "BRND_ID": 13169,
       "BRND_NM": "앤디얼",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210226/10007466/10007466_D_010_360.jpg",
       "SL_PC": 13000,
       "PRD_NM": "앤디얼 매트 립 컬러 02 디어베이지",
       "PRD_ID": 10007466,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210226/10007466/10007466_D_010_360.jpg"
+      "PRD_COLOR": "#B5666A"
     },
     {
-      "BRND_NM": "이너펄스",
-      "SL_PC": 25000,
-      "PRD_NM": "이너펄스 샤론 립글리터 3.5g",
-      "PRD_ID": 10008624,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210722/10008624/10008624_D_001_360.jpg"
-    },
-    {
+      "BRND_ID": 10322,
       "BRND_NM": "우드버리",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180815/1003584/1003584_D_001_360.jpg",
       "SL_PC": 11000,
       "PRD_NM": "우드버리 스무디 벨벳 틴트",
       "PRD_ID": 1003584,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20180815/1003584/1003584_D_001_360.jpg"
+      "PRD_COLOR": "#D24857"
     },
     {
+      "BRND_ID": 13075,
       "BRND_NM": "베리썸",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200827/10006064/10006064_D_001_360.jpg",
       "SL_PC": 13000,
       "PRD_NM": "베리썸 리얼미 벨벳 틴트",
       "PRD_ID": 10006064,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200827/10006064/10006064_D_001_360.jpg"
+      "PRD_COLOR": "#F3B59D"
     },
     {
+      "BRND_ID": 10226,
       "BRND_NM": "미미박스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200826/10006040/10006040_D_001_360.jpg",
       "SL_PC": 9000,
       "PRD_NM": "아임미미 매트 투 고",
       "PRD_ID": 10006040,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200826/10006040/10006040_D_001_360.jpg"
+      "PRD_COLOR": "#A73336"
     },
     {
+      "BRND_ID": 13244,
       "BRND_NM": "헤이비비",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210629/10008382/10008382_D_001_360.jpg",
       "SL_PC": 23000,
       "PRD_NM": "헤이비비 매트 모이스트 립스틱 무화과",
       "PRD_ID": 10008382,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210629/10008382/10008382_D_001_360.jpg"
+      "PRD_COLOR": "#922F2B"
     },
     {
+      "BRND_ID": 10268,
       "BRND_NM": "삐아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210728/10008612/10008612_D_001_360.jpg",
       "SL_PC": 6000,
       "PRD_NM": "삐아 라스트 벨벳 립 틴트",
       "PRD_ID": 10008612,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210728/10008612/10008612_D_001_360.jpg"
+      "PRD_COLOR": "#C28573"
     },
     {
+      "BRND_ID": 10228,
       "BRND_NM": "클리오",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211027/10008995/10008995_D_001_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "클리오 멜팅 쉬어 매트 밤",
       "PRD_ID": 10008995,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211027/10008995/10008995_D_001_360.jpg"
+      "PRD_COLOR": "#DD766D"
     },
     {
+      "BRND_ID": 10268,
       "BRND_NM": "삐아",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200826/10006049/10006049_D_001_360.jpg",
       "SL_PC": 6000,
       "PRD_NM": "삐아 라스트 벨벳 립 틴트 32 레전설",
       "PRD_ID": 10006049,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200826/10006049/10006049_D_001_360.jpg"
+      "PRD_COLOR": "#CC060B"
     },
     {
+      "BRND_ID": 12946,
       "BRND_NM": "레어카인드",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191224/10004512/10004512_D_002_360.jpg",
       "SL_PC": 18000,
       "PRD_NM": "레어카인드 오버스머지 립틴트",
       "PRD_ID": 10004512,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191224/10004512/10004512_D_002_360.jpg"
+      "PRD_COLOR": "#B52044"
     },
     {
+      "BRND_ID": 13026,
       "BRND_NM": "플린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211006/10008914/10008914_D_001_360.jpg",
       "SL_PC": 12000,
       "PRD_NM": "플린 스테이인 워터 틴트 403, 405호 (22.06까지)",
       "PRD_ID": 10008914,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211006/10008914/10008914_D_001_360.jpg"
+      "PRD_COLOR": "#FF412E"
     },
     {
+      "BRND_ID": 10187,
       "BRND_NM": "스틸라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210910/10008835/10008835_D_001_360.jpg",
       "SL_PC": 21000,
       "PRD_NM": "스틸라 뷰티 보스 립글로스 임파워링,페이데이 (22.05까지)",
       "PRD_ID": 10008835,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210910/10008835/10008835_D_001_360.jpg"
+      "PRD_COLOR": "#F36746"
     },
     {
+      "BRND_ID": 12898,
       "BRND_NM": "포렌코즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210225/10006215/10006215_D_002_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "포렌코즈 타투 미디움 벨벳 틴트",
       "PRD_ID": 10006215,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210225/10006215/10006215_D_002_360.jpg"
+      "PRD_COLOR": "#A83326"
     },
     {
+      "BRND_ID": 10349,
       "BRND_NM": "캔메이크",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201217/10006565/10006565_D_001_360.jpg",
       "SL_PC": 15000,
       "PRD_NM": "캔메이크 립 틴트 시럽 02,04호",
       "PRD_ID": 10006565,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201217/10006565/10006565_D_001_360.jpg"
+      "PRD_COLOR": "#FE5A6C"
     },
     {
+      "BRND_ID": 12798,
       "BRND_NM": "어퓨",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210407/10004605/10004605_D_002_360.jpg",
       "SL_PC": 9000,
       "PRD_NM": "어퓨 과즙팡 스파클링 틴트",
       "PRD_ID": 10004605,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210407/10004605/10004605_D_002_360.jpg"
+      "PRD_COLOR": "#CF503B"
     },
     {
+      "BRND_ID": 13075,
       "BRND_NM": "베리썸",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200827/10006063/10006063_D_001_360.jpg",
       "SL_PC": 15000,
       "PRD_NM": "베리썸 리얼미 립스틱",
       "PRD_ID": 10006063,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200827/10006063/10006063_D_001_360.jpg"
+      "PRD_COLOR": "#C37365"
     },
     {
+      "BRND_ID": 10176,
       "BRND_NM": "이글립스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190124/10002444/10002444_D_001_360.jpg",
       "SL_PC": 5500,
       "PRD_NM": "이글립스 벨벳 핏 틴트",
       "PRD_ID": 10002444,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190124/10002444/10002444_D_001_360.jpg"
+      "PRD_COLOR": "#C64147"
     },
     {
+      "BRND_ID": 12796,
       "BRND_NM": "롬앤",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200730/10005487/10005487_D_001_360.jpg",
       "SL_PC": 10900,
       "PRD_NM": "롬앤 글래스팅워터틴트 네온문 에디션",
       "PRD_ID": 10005487,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200730/10005487/10005487_D_001_360.jpg"
+      "PRD_COLOR": "#b32728"
     },
     {
+      "BRND_ID": 12796,
       "BRND_NM": "롬앤",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200730/10005488/10005488_D_001_360.jpg",
       "SL_PC": 10900,
       "PRD_NM": "롬앤 글래스팅워터틴트 1,4,5,6호",
       "PRD_ID": 10005488,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200730/10005488/10005488_D_001_360.jpg"
+      "PRD_COLOR": "#d63e3f"
     },
     {
+      "BRND_ID": 13244,
       "BRND_NM": "헤이비비",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210629/10008363/10008363_D_019_360.jpg",
       "SL_PC": 23000,
       "PRD_NM": "헤이비비 매트 모이스트 립스틱 퓨어레드",
       "PRD_ID": 10008363,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210629/10008363/10008363_D_019_360.jpg"
+      "PRD_COLOR": "#e14f61"
     },
     {
+      "BRND_ID": 12783,
       "BRND_NM": "블랙루즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008809/10008809_D_001_360.jpg",
       "SL_PC": 14900,
       "PRD_NM": "블랙루즈 마라 핫 워터 틴트",
       "PRD_ID": 10008809,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008809/10008809_D_001_360.jpg"
+      "PRD_COLOR": "#fa482a"
     },
     {
+      "BRND_ID": 13169,
       "BRND_NM": "앤디얼",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210226/10007471/10007471_D_010_360.jpg",
       "SL_PC": 13000,
       "PRD_NM": "앤디얼 매트 립 컬러 07 디어모브",
       "PRD_ID": 10007471,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210226/10007471/10007471_D_010_360.jpg"
+      "PRD_COLOR": "#bc555d"
     },
     {
+      "BRND_ID": 10228,
       "BRND_NM": "클리오",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210811/10008709/10008709_D_001_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "클리오 멜팅 쉬어 립",
       "PRD_ID": 10008709,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210811/10008709/10008709_D_001_360.jpg"
+      "PRD_COLOR": "#dc5c67"
     },
     {
+      "BRND_ID": 13121,
       "BRND_NM": "파이브바이브",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201216/10006551/10006551_R_005_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "[업체택배] 파이브바이브 루디 핑크 립 캔디핑크",
       "PRD_ID": 10006551,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201216/10006551/10006551_R_005_360.jpg"
+      "PRD_COLOR": "#D68484"
     },
     {
+      "BRND_ID": 12783,
       "BRND_NM": "블랙루즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201014/10003322/10003322_D_003_360.jpg",
       "SL_PC": 14900,
       "PRD_NM": "블랙루즈 에어핏 벨벳 틴트 3",
       "PRD_ID": 10003322,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201014/10003322/10003322_D_003_360.jpg"
+      "PRD_COLOR": "#ea3f38"
     },
     {
+      "BRND_ID": 10066,
       "BRND_NM": "마몽드",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201218/10006557/10006557_D_001_360.jpg",
       "SL_PC": 14000,
       "PRD_NM": "마몽드 크리미 틴트 컬러밤 쉬폰",
       "PRD_ID": 10006557,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201218/10006557/10006557_D_001_360.jpg"
+      "PRD_COLOR": "#e34746"
     },
     {
+      "BRND_ID": 12783,
       "BRND_NM": "블랙루즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201014/10002294/10002294_D_002_360.jpg",
       "SL_PC": 14900,
       "PRD_NM": "블랙루즈 에어 핏 벨벳틴트2",
       "PRD_ID": 10002294,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201014/10002294/10002294_D_002_360.jpg"
+      "PRD_COLOR": "#d9352e"
     },
     {
+      "BRND_ID": 12783,
       "BRND_NM": "블랙루즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008815/10008815_D_001_360.jpg",
       "SL_PC": 14900,
       "PRD_NM": "블랙루즈 하프 앤 하프 워터 글로우 2",
       "PRD_ID": 10008815,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008815/10008815_D_001_360.jpg"
+      "PRD_COLOR": "#f77b41"
     },
     {
+      "BRND_ID": 10424,
       "BRND_NM": "메이블린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210824/10008797/10008797_D_003_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "메이블린뉴욕 센세이셔널 쿠션 매트 립",
       "PRD_ID": 10008797,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210824/10008797/10008797_D_003_360.jpg"
+      "PRD_COLOR": "#cb354e"
     },
     {
+      "BRND_ID": 10228,
       "BRND_NM": "클리오",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210621/10008403/10008403_D_001_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "클리오 매드매트스테인틴트",
       "PRD_ID": 10008403,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210621/10008403/10008403_D_001_360.jpg"
+      "PRD_COLOR": "#c52131"
     },
     {
+      "BRND_ID": 10226,
       "BRND_NM": "미미박스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008807/10008807_D_001_360.jpg",
       "SL_PC": 12000,
       "PRD_NM": "아임미미 미스터리 블러 틴트 1,2호 (22.04까지)",
       "PRD_ID": 10008807,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008807/10008807_D_001_360.jpg"
+      "PRD_COLOR": "#9c2e2d"
     },
     {
+      "BRND_ID": 10228,
       "BRND_NM": "클리오",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210818/10008751/10008751_D_001_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "클리오 멜팅 듀이 틴트 06~10호 (22.04까지)",
       "PRD_ID": 10008751,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210818/10008751/10008751_D_001_360.jpg"
+      "PRD_COLOR": "#eb3e56"
     },
     {
+      "BRND_ID": 12796,
       "BRND_NM": "롬앤",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191219/10004517/10004517_D_001_360.jpg",
       "SL_PC": 10900,
       "PRD_NM": "롬앤 시스루 매트 틴트",
       "PRD_ID": 10004517,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20191219/10004517/10004517_D_001_360.jpg"
+      "PRD_COLOR": "#e64e55"
     },
     {
+      "BRND_ID": 10322,
       "BRND_NM": "우드버리",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210628/10003327/10003327_D_001_360.jpg",
       "SL_PC": 11000,
       "PRD_NM": "우드버리 HD 스무디벨벳 틴트",
       "PRD_ID": 10003327,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210628/10003327/10003327_D_001_360.jpg"
+      "PRD_COLOR": "#8d2d39"
     },
     {
+      "BRND_ID": 12796,
       "BRND_NM": "롬앤",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210924/10008887/10008887_D_001_360.jpg",
       "SL_PC": 10900,
       "PRD_NM": "롬앤 글래스팅워터틴트 2,3호 (22.03까지)",
       "PRD_ID": 10008887,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210924/10008887/10008887_D_001_360.jpg"
+      "PRD_COLOR": "#b43030"
     },
     {
+      "BRND_ID": 13169,
       "BRND_NM": "앤디얼",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210226/10007468/10007468_D_010_360.jpg",
       "SL_PC": 13000,
       "PRD_NM": "앤디얼 매트 립 컬러 04 디어칠리",
       "PRD_ID": 10007468,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210226/10007468/10007468_D_010_360.jpg"
+      "PRD_COLOR": "#ab4340"
     },
     {
+      "BRND_ID": 13026,
       "BRND_NM": "플린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210322/10007549/10007549_D_001_360.jpg",
       "SL_PC": 14000,
       "PRD_NM": "[온라인단독컬러] 플린 일루션 코팅 틴트 (22.07까지)",
       "PRD_ID": 10007549,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210322/10007549/10007549_D_001_360.jpg"
+      "PRD_COLOR": "#fc4d3c"
     },
     {
+      "BRND_ID": 10176,
       "BRND_NM": "이글립스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190321/10002815/10002815_D_001_360.jpg",
       "SL_PC": 5500,
       "PRD_NM": "이글립스 벨벳 핏 틴트 치즈 에디션 6,9,10호",
       "PRD_ID": 10002815,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190321/10002815/10002815_D_001_360.jpg"
+      "PRD_COLOR": "#f6261e"
     },
     {
+      "BRND_ID": 12798,
       "BRND_NM": "어퓨",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008813/10008813_D_001_360.jpg",
       "SL_PC": 9000,
       "PRD_NM": "어퓨 과즙팡 무스 틴트 RD01,02 (22.03까지)",
       "PRD_ID": 10008813,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008813/10008813_D_001_360.jpg"
+      "PRD_COLOR": "#da374a"
     },
     {
+      "BRND_ID": 13263,
       "BRND_NM": "이너펄스",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210722/10008623/10008623_D_001_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "이너펄스 쥬시 립글로스 4g",
       "PRD_ID": 10008623,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210722/10008623/10008623_D_001_360.jpg"
+      "PRD_COLOR": "#fd6c5d"
     },
     {
+      "BRND_ID": 13226,
       "BRND_NM": "뷰아라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210507/10008088/10008088_D_001_360.png",
       "SL_PC": 19000,
       "PRD_NM": "[업체배송] 뷰아라 수분 글로시 틴트 리얼 레드",
       "PRD_ID": 10008088,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210507/10008088/10008088_D_001_360.png"
+      "PRD_COLOR": "#9F202B"
     },
     {
+      "BRND_ID": 10254,
       "BRND_NM": "로레알파리",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200224/10004767/10004767_D_001_360.jpg",
       "SL_PC": 17000,
       "PRD_NM": "로레알파리 브릴리언트 시그니처",
       "PRD_ID": 10004767,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200224/10004767/10004767_D_001_360.jpg"
+      "PRD_COLOR": "#dc2d4a"
     },
     {
-      "BRND_NM": "앤디얼",
-      "SL_PC": 13000,
-      "PRD_NM": "앤디얼 매트 립 컬러 05 디어카민",
-      "PRD_ID": 10007469,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210226/10007469/10007469_D_010_360.jpg"
-    },
-    {
+      "BRND_ID": 12798,
       "BRND_NM": "어퓨",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200623/10005308/10005308_D_001_360.jpg",
       "SL_PC": 9000,
       "PRD_NM": "어퓨 과즙팡 당 틴트",
       "PRD_ID": 10005308,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200623/10005308/10005308_D_001_360.jpg"
+      "PRD_COLOR": "#e4272d"
     },
     {
+      "BRND_ID": 13121,
       "BRND_NM": "파이브바이브",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201216/10006548/10006548_R_005_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "[업체택배] 파이브바이브 루디 핑크 립 로맨틱앤티크",
       "PRD_ID": 10006548,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201216/10006548/10006548_R_005_360.jpg"
+      "PRD_COLOR": "#cc6053"
     },
     {
+      "BRND_ID": 12783,
       "BRND_NM": "블랙루즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211012/10008922/10008922_D_001_360.png",
       "SL_PC": 15900,
       "PRD_NM": "블랙루즈 컬러 락 하트틴트 H02,H05 (22.06까지)",
       "PRD_ID": 10008922,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211012/10008922/10008922_D_001_360.png"
+      "PRD_COLOR": "#b11c1e"
     },
     {
+      "BRND_ID": 13169,
       "BRND_NM": "앤디얼",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210226/10007467/10007467_D_010_360.jpg",
       "SL_PC": 13000,
       "PRD_NM": "앤디얼 매트 립 컬러 03 디어코랄",
       "PRD_ID": 10007467,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210226/10007467/10007467_D_010_360.jpg"
+      "PRD_COLOR": "#d36556"
     },
     {
+      "BRND_ID": 12796,
       "BRND_NM": "롬앤",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211102/10009011/10009011_D_001_360.png",
       "SL_PC": 9900,
       "PRD_NM": "롬앤 쥬시 래스팅 틴트 17 플럼콕 (22.07까지)",
       "PRD_ID": 10009011,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20211102/10009011/10009011_D_001_360.png"
+      "PRD_COLOR": "#cc4d60"
     },
     {
+      "BRND_ID": 10114,
       "BRND_NM": "루나",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210818/10008746/10008746_D_001_360.png",
       "SL_PC": 16000,
       "PRD_NM": "루나 매트틴트레더 01,02 (22.04까지)",
       "PRD_ID": 10008746,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210818/10008746/10008746_D_001_360.png"
+      "PRD_COLOR": "#d4393d"
     },
     {
+      "BRND_ID": 10254,
       "BRND_NM": "로레알파리",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190228/10002651/10002651_D_001_360.jpg",
       "SL_PC": 17000,
       "PRD_NM": "로레알파리 루즈 시그니처",
       "PRD_ID": 10002651,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20190228/10002651/10002651_D_001_360.jpg"
+      "PRD_COLOR": "#bd2d48"
     },
     {
+      "BRND_ID": 10424,
       "BRND_NM": "메이블린",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210401/1003463/1003463_D_003_360.jpg",
       "SL_PC": 16000,
       "PRD_NM": "메이블린뉴욕 슈퍼 스테이 립 잉크",
       "PRD_ID": 1003463,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210401/1003463/1003463_D_003_360.jpg"
+      "PRD_COLOR": "#b40f32"
     },
     {
+      "BRND_ID": 12898,
       "BRND_NM": "포렌코즈",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210223/10007406/10007406_D_001_360.jpg",
       "SL_PC": 19000,
       "PRD_NM": "포렌코즈 타투 원더 벨벳 틴트",
       "PRD_ID": 10007406,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210223/10007406/10007406_D_001_360.jpg"
+      "PRD_COLOR": "#DC5667"
     },
     {
+      "BRND_ID": 12935,
       "BRND_NM": "셀프뷰티",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200131/10004691/10004691_D_001_360.jpg",
       "SL_PC": 14000,
       "PRD_NM": "셀프뷰티 뷰티튜드 글로시 롱-래스팅 립 틴트",
       "PRD_ID": 10004691,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200131/10004691/10004691_D_001_360.jpg"
+      "PRD_COLOR": "#b60039"
     },
     {
+      "BRND_ID": 13075,
       "BRND_NM": "베리썸",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201126/10006280/10006280_D_001_360.jpg",
       "SL_PC": 13000,
       "PRD_NM": "베리썸 리얼미 워터글로우 틴트",
       "PRD_ID": 10006280,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20201126/10006280/10006280_D_001_360.jpg"
+      "PRD_COLOR": "#fc5a55"
     },
     {
+      "BRND_ID": 10066,
       "BRND_NM": "마몽드",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008827/10008827_D_001_360.jpg",
       "SL_PC": 13000,
       "PRD_NM": "마몽드 하이라이트 립 틴트 매트 04호 (22.05까지)",
       "PRD_ID": 10008827,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210906/10008827/10008827_D_001_360.jpg"
+      "PRD_COLOR": "#d9535a"
     },
     {
+      "BRND_ID": 13262,
       "BRND_NM": "피치포포",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210806/10008664/10008664_D_008_360.jpg",
       "SL_PC": 22000,
       "PRD_NM": "[업체택배] 피치포포 소프트벨벳립스틱 로지타임 3.5g",
       "PRD_ID": 10008664,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210806/10008664/10008664_D_008_360.jpg"
+      "PRD_COLOR": "#E96664"
     },
     {
+      "BRND_ID": 13262,
       "BRND_NM": "피치포포",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210806/10008665/10008665_D_008_360.jpg",
       "SL_PC": 22000,
       "PRD_NM": "[업체택배] 피치포포 소프트벨벳립스틱 레이디코랄 3.5g",
       "PRD_ID": 10008665,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210806/10008665/10008665_D_008_360.jpg"
+      "PRD_COLOR": "#EF585A"
     },
     {
+      "BRND_ID": 10082,
       "BRND_NM": "페리페라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210826/10008805/10008805_D_001_360.jpg",
       "SL_PC": 12000,
       "PRD_NM": "페리페라 잉크무드매트스틱",
       "PRD_ID": 10008805,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210826/10008805/10008805_D_001_360.jpg"
+      "PRD_COLOR": "#dc615a"
     },
     {
+      "BRND_ID": 13058,
       "BRND_NM": "달트",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200805/10005668/10005668_D_001_360.jpg",
       "SL_PC": 15000,
       "PRD_NM": "[업체택배] 달립 올데이 무드 립스틱 # 1 달트레드",
       "PRD_ID": 10005668,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200805/10005668/10005668_D_001_360.jpg"
+      "PRD_COLOR": "#882D2C"
     },
     {
+      "BRND_ID": 10187,
       "BRND_NM": "스틸라",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200326/10004959/10004959_D_001_360.jpg",
       "SL_PC": 21000,
       "PRD_NM": "스틸라 뷰티 보스 립글로스 인 더 레드",
       "PRD_ID": 10004959,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20200326/10004959/10004959_D_001_360.jpg"
+      "PRD_COLOR": "#e80113"
     },
     {
+      "BRND_ID": 13244,
       "BRND_NM": "헤이비비",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210629/10008380/10008380_D_001_360.jpg",
       "SL_PC": 23000,
       "PRD_NM": "헤이비비 매트 모이스트 립스틱 로코코랄",
       "PRD_ID": 10008380,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210629/10008380/10008380_D_001_360.jpg"
+      "PRD_COLOR": "#f65250"
     },
     {
+      "BRND_ID": 13244,
       "BRND_NM": "헤이비비",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210629/10008366/10008366_D_019_360.jpg",
       "SL_PC": 23000,
       "PRD_NM": "헤이비비 매트 모이스트 립스틱 히피코랄",
       "PRD_ID": 10008366,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210629/10008366/10008366_D_019_360.jpg"
+      "PRD_COLOR": "#d6493f"
     },
     {
+      "BRND_ID": 13244,
       "BRND_NM": "헤이비비",
+      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210629/10008364/10008364_D_019_360.jpg",
       "SL_PC": 23000,
       "PRD_NM": "헤이비비 매트 모이스트 립스틱 오렌지선셋",
       "PRD_ID": 10008364,
-      "PRD_IMG": "https://mimg.lalavla.com/resources/images/prdimg/20210629/10008364/10008364_D_019_360.jpg"
+      "PRD_COLOR": "#d63628"
     }
   ]
 }

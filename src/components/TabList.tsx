@@ -11,6 +11,7 @@ const UL = styled.ul`
   padding-inline-start: 0;
 `
 const LI = styled.li`
+  cursor: pointer;
   display: inline-block;
   text-align: center;
   margin-left: 15px;
@@ -27,11 +28,12 @@ const LI = styled.li`
     color: #ebebeb;
   }
 `
+
 function Tablist() {
   return (
     <SortList>
       <UL>
-        <LI>최신순</LI>
+        <LI>정확도순</LI>
         <LI>낮은 가격순</LI>
         <LI>높은 가격순</LI>
       </UL>

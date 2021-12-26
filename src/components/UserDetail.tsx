@@ -3,7 +3,6 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import ItemProduct from '@/components/ItemProduct'
 import next from '@/drawables/next.png'
 import Grid from '@/shared/components/Grid'
 import { Product } from '@/shared/types'
