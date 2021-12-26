@@ -87,16 +87,18 @@ const ItemInfo = styled.div`
   }
 `
 
-const infoList = [
-  { field: '닉네임', content: '두부낑' },
-  { field: '이메일', content: 'juyoung0520@naver.com' },
-  { field: '이메일', content: 'juyoung0520@naver.com' },
-]
-
 function UserDetail() {
-  const [isLogin, setIsLogin] = useState(true)
+  const loadedCurrentUser = localStorage.getItem('currentUSER')
+  let infoList: any[] = []
+  if (loadedCurrentUser != null) {
+    const currentUser = JSON.parse(loadedCurrentUser)
+    infoList = [
+      { field: '닉네임', content: currentUser[2] },
+      { field: '이메일', content: currentUser[0] },
+    ]
+  }
   const [products, setProducts] = useState<Product[]>([])
-
+  const currentUSER = localStorage.getItem('currentUSER')
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -110,10 +112,12 @@ function UserDetail() {
     }
 
     fetchProducts()
-  }, [])
+  }, [currentUSER])
 
   const handleLoginOnClick = () => {
-    setIsLogin((prev) => !prev)
+    localStorage.setItem('isLogin', 'false')
+    localStorage.removeItem('currentUSER')
+    history.go(-1)
   }
 
   return (

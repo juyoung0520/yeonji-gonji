@@ -76,7 +76,7 @@ const Button = styled.button<{ imgUrl: string }>`
 `
 function TopBar() {
   const [keyword, setKeyword] = useState<string>('')
-
+  const isLogin = localStorage.getItem('isLogin')
   const handleKeyWordChange = useCallback(
     (target: EventTarget & HTMLInputElement) => {
       setKeyword(target.value)
@@ -107,12 +107,15 @@ function TopBar() {
         <Link to="/like">
           <Button imgUrl={heart} />
         </Link>
-        <Link to="/login">
-          <Button imgUrl={user} />
-        </Link>
-        <Link to="/user">
-          <Button imgUrl={user} />
-        </Link>
+        {isLogin !== 'true' ? (
+          <Link to="/login">
+            <Button imgUrl={user} />
+          </Link>
+        ) : (
+          <Link to="/user">
+            <Button imgUrl={user} />
+          </Link>
+        )}
       </ButtonContainer>
     </Header>
   )
