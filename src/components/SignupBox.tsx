@@ -5,6 +5,8 @@ import React, { useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
 import * as yup from 'yup'
 
+import { User } from '@/shared/types'
+
 const SignupForm = styled.form`
   margin: 150px auto;
   width: 566px;
@@ -96,7 +98,6 @@ const signUpValidation = yup.object({
     .required('비밀번호가 일치하지 않습니다.'),
 })
 
-import { User } from '@/shared/types'
 function SignupBox() {
   const {
     handleSubmit,
@@ -105,6 +106,7 @@ function SignupBox() {
   } = useForm({
     resolver: yupResolver(signUpValidation),
   })
+
   const onSubmit = (data: User) => {
     const user = [data.email, data.password2, data.name]
     const loadedUserArray = localStorage.getItem('USER')
